@@ -1,0 +1,417 @@
+[
+    {
+        "therapist": "Hello! I'm glad you're here today. How are you feeling? It's a safe space, so feel free to share whatever's on your mind.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 12.717821459903623,
+                "Flesch Reading Ease": 97.5,
+                "Gunning Fog Index": 4.82
+            },
+            "consistency": {
+                "entailment_score": 0.2405947595834732,
+                "neutral_score": 0.7402851581573486,
+                "contradiction_score": 0.019120117649435997,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.3645339176497089,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988565444946289
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3118
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for that. It\u2019s always nice to know I\u2019m in a safe space. I\u2019ve been feeling a bit overwhelmed lately, to be honest. You know, just the usual worries bubbling up. I\u2019ve been trying to manage things, but sometimes it feels like they just spiral out of control. How about you? How have you been?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.780869946004888,
+                "Flesch Reading Ease": 88.63,
+                "Gunning Fog Index": 5.35
+            },
+            "consistency": {
+                "entailment_score": 0.006103158462792635,
+                "neutral_score": 0.9873591065406799,
+                "contradiction_score": 0.00653774943202734,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0018450862765837517,
+                "context_emotion": "joy",
+                "response_emotion": "surprise",
+                "response_emotion_score": 0.4954904615879059
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5161
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm glad you're comfortable sharing how you feel. It sounds like you're experiencing a lot of stress and anxiety, which can be really challenging to navigate. When you mention that your worries sometimes spiral out of control, can you tell me a bit more about what those worries are? What thoughts or images come to mind that contribute to that feeling of being overwhelmed?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.205395956818665,
+                "Flesch Reading Ease": 63.7,
+                "Gunning Fog Index": 11.4
+            },
+            "consistency": {
+                "entailment_score": 0.10617727786302567,
+                "neutral_score": 0.8920784592628479,
+                "contradiction_score": 0.0017442343523725867,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.15470794218176653,
+                "context_emotion": "surprise",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.6785475015640259
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5513
+            }
+        }
+    },
+    {
+        "patient": "AI: I appreciate your understanding. It\u2019s a bit hard to put into words, but I often find myself consumed by thoughts about cleanliness and germs. For instance, after I use the washroom, I feel the need to wash my hands multiple times. It\u2019s like I can\u2019t shake off the feeling that I might have touched something contaminated, even if I know I haven\u2019t. And then there\u2019s this constant anxiety about things being out of place. If I notice something isn\u2019t where it should be, I can spend a lot of time rearranging or fixing it, even if it seems trivial. It feels like I\u2019m on this never-ending loop of needing to correct things or sanitize everything around me. It can be exhausting. Sometimes, I just wish I could relax and not worry so much. Do you ever feel that way?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.228709660885531,
+                "Flesch Reading Ease": 74.19,
+                "Gunning Fog Index": 8.46
+            },
+            "consistency": {
+                "entailment_score": 0.16077855229377747,
+                "neutral_score": 0.8334599137306213,
+                "contradiction_score": 0.005761525593698025,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0010350568149429251,
+                "context_emotion": "fear",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9965149164199829
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5202
+            }
+        }
+    }
+][
+    {
+        "therapist": "It sounds like you're experiencing some really intense feelings around cleanliness and order, which can be quite draining. The way you describe needing to wash your hands multiple times after using the washroom, despite knowing that you haven't touched anything contaminated, suggests that these thoughts are quite persistent and intrusive for you. \nIt's also interesting that you find yourself rearranging things to get them just right. This need to correct things or sanitize can sometimes take up a lot of time and energy, leading to that sense of exhaustion you mentioned. \nCan you share how much time you spend on these rituals, like hand washing or rearranging things? Do you find that it interferes with your daily activities or responsibilities? Understanding the extent of these behaviors can really help us figure out how they\u2019re impacting your life.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 28.818209222331838,
+                "Flesch Reading Ease": 51.58,
+                "Gunning Fog Index": 12.8
+            },
+            "consistency": {
+                "entailment_score": 0.8051493763923645,
+                "neutral_score": 0.1940903216600418,
+                "contradiction_score": 0.0007603164995089173,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9366634935998661,
+                "context_emotion": "sadness",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9399392604827881
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6004
+            }
+        }
+    },
+    {
+        "patient": "AI: That's a great question, and I appreciate your interest in understanding my experience more deeply. It\u2019s hard to quantify the exact time I spend on these rituals, but I\u2019d say I wash my hands at least 20 to 30 times a day. Sometimes, after using the washroom, I\u2019ll wash my hands multiple times in a row, and each time, I feel compelled to check if I missed any spots or if I still feel dirty. \nAs for rearranging things, it can take up hours of my day. I might spend a significant amount of time organizing my desk or tidying up my living space. If I notice something out of place, I can get really anxious until I fix it, and that often leads me to lose track of time. It definitely interferes with my daily activities. I sometimes find it hard to focus on work or even relax because I\u2019m constantly thinking about the next thing I need to clean or fix. It feels like I\u2019m always in this state of alertness, which is exhausting. \nI sometimes wonder how different my life would be if I didn\u2019t have these compulsions. What about you? Do you have any experiences that resonate with what I\u2019m sharing?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.309675771180128,
+                "Flesch Reading Ease": 70.94,
+                "Gunning Fog Index": 10.38
+            },
+            "consistency": {
+                "entailment_score": 0.025613030418753624,
+                "neutral_score": 0.9696887731552124,
+                "contradiction_score": 0.004698129836469889,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9335743451449758,
+                "context_emotion": "sadness",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9932283759117126
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6124
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing such personal insights into your daily experiences. It sounds like the rituals you engage in, like washing your hands repeatedly and rearranging things, are significantly impacting your life. Spending 20 to 30 times a day washing your hands, especially if it involves multiple washes in a row, really highlights how these behaviors can become all-consuming. \nThe hours you dedicate to organizing and tidying up, and the anxiety that arises when things feel out of place, suggest that these compulsions might be taking a toll on your ability to focus on other aspects of your life, such as work or relaxation. It\u2019s understandable to wish for a sense of normalcy and freedom from these thoughts and actions.\nWhen you think about these compulsive behaviors, do you notice any specific triggers that lead to the need to wash your hands or rearrange things? Are there certain situations or environments where you feel this compulsion more strongly? Recognizing these triggers can be an important step in understanding how to manage them.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.34763671382627,
+                "Flesch Reading Ease": 49.65,
+                "Gunning Fog Index": 15.11
+            },
+            "consistency": {
+                "entailment_score": 0.07793547958135605,
+                "neutral_score": 0.920728862285614,
+                "contradiction_score": 0.0013356524286791682,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.07170705595519467,
+                "context_emotion": "sadness",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7222011685371399
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6039
+            }
+        }
+    },
+    {
+        "patient": "AI: That\u2019s a really insightful question, and I appreciate you guiding me to think about the triggers. I\u2019ve noticed that certain situations definitely heighten my compulsion to wash my hands or rearrange things. For example, if I\u2019m in a public space or even just after shaking hands with someone, the urge to wash my hands becomes overwhelming. I can feel my heart racing, and it\u2019s like my mind is screaming at me to clean my hands immediately.\nAs for rearranging, it often happens when I\u2019m feeling particularly anxious or stressed. If I\u2019m working on something and I feel like I\u2019m losing control over my surroundings, I\u2019ll instinctively start organizing things around me. It\u2019s almost as if I believe that by putting things in their right place, I can regain some sense of order in my mind, even if it\u2019s just temporary.\nCertain environments, like crowded or messy places, can trigger these feelings even more. I sometimes find myself scanning the area, looking for anything out of place or unclean, which only intensifies my anxiety. It's a cycle that feels hard to break. Have you found any effective strategies for managing stress or anxiety in your own experiences?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.169333716825918,
+                "Flesch Reading Ease": 53.31,
+                "Gunning Fog Index": 11.83
+            },
+            "consistency": {
+                "entailment_score": 0.18894611299037933,
+                "neutral_score": 0.8026843667030334,
+                "contradiction_score": 0.00836951658129692,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0010765696862851531,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9921299815177917
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5991
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing those insights about your triggers; it sounds like you have a good understanding of what heightens your anxiety and compulsion. The way you describe feeling overwhelmed in public spaces or after physical contact highlights how these situations can amplify your feelings of needing to clean or organize. It\u2019s completely understandable that trying to regain a sense of order in your surroundings feels like a way to cope with the anxiety you experience.\nIt\u2019s interesting how you connected the need to rearrange with a sense of control over your environment, especially during stressful times. This kind of behavior can indeed create a temporary relief but can also trap you in a cycle of anxiety.\nAs for managing stress and anxiety, I\u2019ve found that some people benefit from grounding techniques or mindfulness practices, like deep breathing or focusing on the present moment. Others find that structured routines can help create a sense of predictability and control without the need for compulsive behaviors. \nHave you ever tried any strategies like these, or are there any that you think might help you manage your feelings of anxiety and the compulsions you experience? It might be worth exploring what works best for you.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 24.947824474902493,
+                "Flesch Reading Ease": 48.74,
+                "Gunning Fog Index": 14.7
+            },
+            "consistency": {
+                "entailment_score": 0.03384267911314964,
+                "neutral_score": 0.964473307132721,
+                "contradiction_score": 0.0016839755699038506,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8126592487437563,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8191056251525879
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6141
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for those suggestions; they do sound quite helpful. I\u2019ve heard about grounding techniques and mindfulness before, but I haven\u2019t really tried them in a structured way. Sometimes, I feel so caught up in my rituals that I forget there might be other ways to cope. \nI think deep breathing could be beneficial, especially when I start feeling that rush of anxiety in public or after contact with others. It sounds like a simple yet effective way to regain some composure. I\u2019ve also thought about establishing a routine, but I often get sidetracked by the compulsion to clean or rearrange things, which makes it hard to stick to any plan.\nMaybe I could give these techniques a try and see how they work for me. It\u2019s just sometimes hard to break the cycle, you know? I appreciate your encouragement to explore these options. Have you found that certain techniques resonate more with individuals dealing with anxiety or OCD? I'd love to hear more about that.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 25.692831052516862,
+                "Flesch Reading Ease": 72.97,
+                "Gunning Fog Index": 9.67
+            },
+            "consistency": {
+                "entailment_score": 0.3517049252986908,
+                "neutral_score": 0.6305180788040161,
+                "contradiction_score": 0.017776938155293465,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00011012411880038236,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9977497458457947
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6261
+            }
+        }
+    }
+][
+    {
+        "therapist": "It's great to hear that you're open to trying grounding techniques and mindfulness practices! Many people find that these strategies can serve as effective tools for managing anxiety and breaking the cycle of compulsive behaviors, especially when they start to feel overwhelmed. \nIn my experience, individuals dealing with anxiety or OCD often find that deep breathing exercises help to create a moment of pause. Focusing on your breath can ground you in the present and help reduce that immediate rush of anxiety you described. Some people prefer guided meditations, which can provide structure and make the practice feel more approachable.\nEstablishing a routine can also be incredibly beneficial, but I understand how challenging it can be when compulsions take over. It might help to start with small, manageable goals. For instance, you could designate specific times for cleaning or organizing so that it feels more structured rather than dictated by anxiety. \nSome individuals also find journaling useful, as it allows them to express their thoughts and feelings, which can sometimes lessen the intensity of those obsessive thoughts. Reflecting on your experiences can provide insights into your triggers and help you track your progress over time.\nHave you considered any specific goals or steps you might want to take as you try these new techniques? It might be helpful to think of one or two small changes to incorporate into your daily life.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.9605794958948,
+                "Flesch Reading Ease": 51.89,
+                "Gunning Fog Index": 13.58
+            },
+            "consistency": {
+                "entailment_score": 0.59138023853302,
+                "neutral_score": 0.4064389765262604,
+                "contradiction_score": 0.0021807770244777203,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0015519861097694349,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9216256141662598
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6051
+            }
+        }
+    },
+    {
+        "patient": "AI: Those are some really practical suggestions, and I appreciate you sharing them! I like the idea of starting with small, manageable goals. It feels less daunting that way. Setting specific times for cleaning or organizing could give me a sense of structure without letting it consume my entire day. \nI think I might try to designate a couple of times during the week to focus on tidying up, rather than doing it whenever I feel that compulsion. That way, I can still keep things organized but hopefully break the cycle of anxiety when I feel overwhelmed.\nJournaling sounds intriguing too. I\u2019ve never really thought about putting my thoughts down on paper, but it might help me to process what I'm feeling and understand my triggers better. I could start by jotting down my thoughts and experiences related to my compulsions, and see if that brings any clarity or relief.\nAs for specific goals, maybe I could aim to practice deep breathing for a few minutes each day, particularly when I feel that rush of anxiety. Just having those small steps to focus on might help me feel more in control. Thank you for your support and suggestions! Do you think it\u2019s important to celebrate small victories along the way, even if they seem minor?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 25.227618517503352,
+                "Flesch Reading Ease": 63.19,
+                "Gunning Fog Index": 10.69
+            },
+            "consistency": {
+                "entailment_score": 0.01485278271138668,
+                "neutral_score": 0.9830637574195862,
+                "contradiction_score": 0.002083435421809554,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8104449485077225,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8793646097183228
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6209
+            }
+        }
+    }
+][
+    {
+        "therapist": "Absolutely! Celebrating small victories is a vital part of the journey, especially when dealing with anxiety and compulsive behaviors. Each step you take, no matter how minor it may seem, is a significant achievement and deserves recognition. It can help reinforce positive behaviors and motivate you to continue making progress.\nAcknowledging those small successes, like sticking to your designated times for cleaning or practicing deep breathing, can build your confidence and create a sense of accomplishment. It\u2019s also a way to remind yourself that change is possible, even if it feels gradual.\nYou might consider keeping a journal specifically for noting these victories, alongside your reflections on your compulsions. This can serve as a tangible reminder of your progress and a source of encouragement when you face challenges.\nIs there a particular way you\u2019d like to celebrate these small victories? It could be something simple, like treating yourself to a favorite activity or just taking a moment to acknowledge your hard work. Finding a way to celebrate can make the process more enjoyable and rewarding!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 24.160967012036696,
+                "Flesch Reading Ease": 45.25,
+                "Gunning Fog Index": 15.23
+            },
+            "consistency": {
+                "entailment_score": 0.028317566961050034,
+                "neutral_score": 0.9663774967193604,
+                "contradiction_score": 0.0053049554117023945,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 9.540552280430745e-05,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9987982511520386
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5932
+            }
+        }
+    },
+    {
+        "patient": "AI: That sounds like a wonderful idea! I really like the thought of keeping a journal for my small victories. It could be empowering to look back and see how far I've come, even if the changes are gradual. I might also treat myself to something enjoyable, like taking a walk in nature or indulging in a favorite snack, whenever I achieve a goal. It\u2019s nice to think of incorporating those moments of celebration into my routine.\nAcknowledging my progress, no matter how small, might help me stay motivated. It's easy to lose sight of the positives when I\u2019m caught up in my compulsions, so having a way to celebrate could really shift my perspective. Thank you for encouraging me to think about this! I\u2019ll definitely consider how I can make celebrating my victories a part of my journey. Do you have any suggestions for simple yet meaningful ways to celebrate those moments?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 24.54408588433333,
+                "Flesch Reading Ease": 64.41,
+                "Gunning Fog Index": 11.09
+            },
+            "consistency": {
+                "entailment_score": 0.20206168293952942,
+                "neutral_score": 0.794301450252533,
+                "contradiction_score": 0.0036368819419294596,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9977666630687736,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.998967170715332
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.635
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm so glad to hear that you're feeling empowered by the idea of keeping a journal for your small victories! Celebrating those moments can make a significant difference in how you perceive your progress. As for suggestions, simple ways to celebrate could include treating yourself to a favorite activity, like enjoying a nice cup of tea or coffee, taking a leisurely walk, or even watching a movie you love. You could also create a small ritual, such as lighting a candle or playing a song that makes you feel good whenever you achieve a goal.\nBefore we wrap up, I\u2019d like to quickly touch on a few key points from our conversation. You've shared that you experience significant anxiety related to cleanliness and order, leading you to engage in compulsive hand washing and rearranging. You mentioned specific triggers for these behaviors, including public spaces and feelings of stress. It\u2019s also clear that these compulsions are impacting your daily life and responsibilities.\nAs you move forward with your journaling and try out grounding techniques like deep breathing, remember that recognizing your triggers and taking small steps can be incredibly beneficial. I encourage you to keep reflecting on your experiences and to celebrate your progress along the way.\nIf you have any last thoughts or questions before we conclude today, I\u2019m here to listen! Otherwise, I look forward to our next session where we can continue exploring your journey together.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 26.826886994386307,
+                "Flesch Reading Ease": 51.38,
+                "Gunning Fog Index": 13.3
+            },
+            "consistency": {
+                "entailment_score": 0.5517206788063049,
+                "neutral_score": 0.44718143343925476,
+                "contradiction_score": 0.0010979376966133714,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.997928262996993,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.998960018157959
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6069
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for summarizing our conversation so thoughtfully. It really helps to have everything laid out like that. I appreciate your encouragement and the practical suggestions for celebrating my victories. I think I\u2019ll start with journaling and incorporating some small rituals to acknowledge my progress. It feels like a positive step forward.\nI don\u2019t have any specific questions at the moment, but I do feel a bit more hopeful about trying these techniques. I look forward to our next session as well. It\u2019s comforting to talk about these things and know that I have support. Thank you for being here and for your understanding today!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 32.0705124487064,
+                "Flesch Reading Ease": 59.5,
+                "Gunning Fog Index": 11.14
+            },
+            "consistency": {
+                "entailment_score": 0.04355599731206894,
+                "neutral_score": 0.9528241753578186,
+                "contradiction_score": 0.003619821509346366,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9979161162949595,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9989550113677979
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5707
+            }
+        }
+    }
+]{
+    "total": 16,
+    "Perplexity": 21.26819605425959,
+    "Flesch Reading Ease": 56.833124999999995,
+    "Gunning Fog Index": 10.920625000000001,
+    "Entailment-Neutral-Consistency": 0.7903630025684834,
+    "Empathy": 0.4199426440639496,
+    "BERTScore": 0.5547124999999999
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "therapist": "Hello, welcome to our session today. How are you feeling?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.341013506091564,
+                "Flesch Reading Ease": 66.4,
+                "Gunning Fog Index": 2.0
+            },
+            "consistency": {
+                "entailment_score": 0.32192251086235046,
+                "neutral_score": 0.6594766974449158,
+                "contradiction_score": 0.018600789830088615,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.35210996504428316,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.964813768863678
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.2636
+            }
+        }
+    },
+    {
+        "patient": "I appreciate you asking, therapist. I'm feeling quite anxious and overwhelmed with my OCD symptoms lately. The constant need to wash my hands and the fear of germs has been consuming a lot of my time and energy. It's been challenging to manage these obsessions on my own.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.24464474330247,
+                "Flesch Reading Ease": 67.76,
+                "Gunning Fog Index": 10.63
+            },
+            "consistency": {
+                "entailment_score": 0.0010600774548947811,
+                "neutral_score": 0.9971883893013,
+                "contradiction_score": 0.0017515041399747133,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00027250027384081825,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9969373941421509
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3797
+            }
+        }
+    }
+]

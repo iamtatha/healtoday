@@ -1,0 +1,417 @@
+[
+    {
+        "therapist": "Hello and welcome! I'm glad you could make it today. How are you feeling? Is there anything specific on your mind that you'd like to talk about?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 10.952868851752616,
+                "Flesch Reading Ease": 89.95,
+                "Gunning Fog Index": 4.2
+            },
+            "consistency": {
+                "entailment_score": 0.2508711516857147,
+                "neutral_score": 0.7304480075836182,
+                "contradiction_score": 0.018680792301893234,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.36398146209248416,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9973427653312683
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3072
+            }
+        }
+    },
+    {
+        "patient": "Thank you for having me. I appreciate the warm welcome. I'm feeling a bit on edge, but I'm hopeful this conversation will help. There's a lot that swirls around in my mind, but it's hard to know where to start. Sometimes I get caught up in certain routines and thoughts, and it feels overwhelming. But, like I said, it might take me a little while to open up fully. Maybe we can ease into it? How about you? How's your day going?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.777953674915688,
+                "Flesch Reading Ease": 87.62,
+                "Gunning Fog Index": 5.1
+            },
+            "consistency": {
+                "entailment_score": 0.0028869062662124634,
+                "neutral_score": 0.9962454438209534,
+                "contradiction_score": 0.0008676145225763321,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9923787647321092,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9950227737426758
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.506
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm here to focus entirely on you today, so my day is all about supporting you through this conversation. It's perfectly okay to ease into things at your own pace. I'm glad you've taken this step to reach out and talk. When you mention getting caught up in routines and thoughts, it sounds like these might be quite consuming for you. Would you like to share more about what these routines or thoughts are like? Remember, there's no rush, and we can take things one step at a time.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.60537561343428,
+                "Flesch Reading Ease": 81.83,
+                "Gunning Fog Index": 8.17
+            },
+            "consistency": {
+                "entailment_score": 0.015861283987760544,
+                "neutral_score": 0.9193150401115417,
+                "contradiction_score": 0.06482361257076263,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.990435420185122,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9953896999359131
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5515
+            }
+        }
+    },
+    {
+        "patient": "Thank you for being so understanding. It's comforting to know that we can take this at a pace that feels right. Well, some of the routines involve washing my hands. I know it's common enough, but for me, it's more than just a habit. It's like this relentless feeling that I might have touched something unclean, even if I haven't. So, I end up washing my hands multiple times, just to feel a bit more at ease.\nThen there's the anxiety over things being misplaced. If something isn't where I expect it to be, it can really throw me off balance. It might sound trivial, but it can be hard to focus on anything else until everything feels 'right' again.\nBiting my fingernails is another thing. It's like a default action when my mind is racing, even though I know it's not good for me. I guess all these things are my way of trying to manage the anxiety, but they end up being part of it too. Does that make sense?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.41369367192042,
+                "Flesch Reading Ease": 83.46,
+                "Gunning Fog Index": 6.91
+            },
+            "consistency": {
+                "entailment_score": 0.09631748497486115,
+                "neutral_score": 0.9008515477180481,
+                "contradiction_score": 0.002830992918461561,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9473055861072623,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9516931772232056
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5102
+            }
+        }
+    }
+][
+    {
+        "therapist": "It absolutely makes sense, and I appreciate you sharing these experiences with me. It's important to recognize the impact these routines and thoughts have on your daily life. From what you've described, it sounds like these actions are more than just habits\u2014they might be ways of coping with intrusive thoughts and feelings of anxiety. The handwashing and need for order seem to be connected to an underlying sense of discomfort or fear, which can be quite distressing and time-consuming.\nYou mentioned that these routines help you feel a bit more at ease, but they also contribute to your anxiety. It's a difficult cycle to break, especially when these actions offer temporary relief but end up reinforcing the anxiety. The nail-biting, as you noted, might be a similar response to stress or racing thoughts.\nHave you noticed if there are specific triggers that intensify these feelings or routines? Or perhaps certain times when they feel more manageable? Understanding these patterns could be helpful in finding ways to address them. Remember, you're not alone in this, and I'm here to support you as we explore these feelings together.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.098774738688615,
+                "Flesch Reading Ease": 54.32,
+                "Gunning Fog Index": 11.49
+            },
+            "consistency": {
+                "entailment_score": 0.03506304323673248,
+                "neutral_score": 0.8609092235565186,
+                "contradiction_score": 0.10402771085500717,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.948721110085998,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9968770742416382
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5666
+            }
+        }
+    },
+    {
+        "patient": "Thank you for being so supportive and patient. It really does help to talk about these things. As for triggers, certain situations definitely make things worse. For example, if I'm in a crowded place or if I have to touch something that I perceive as dirty, like a door handle in a public restroom, that's when the urge to wash my hands becomes almost impossible to ignore. It's like this overwhelming need to cleanse myself of whatever germs might be there, even though I know logically it's not always necessary.\nSimilarly, if I'm feeling particularly stressed or overwhelmed, the anxiety about things being out of place intensifies. It's like my mind looks for something it can control amid the chaos. As for nail-biting, it seems to happen most when I'm deep in thought or worried about something specific. It's almost like a subconscious reaction to the tension I'm feeling.\nThere are days when things feel somewhat manageable, usually when I'm in a familiar and comfortable environment where I don't feel as exposed to these triggers. But those times seem to be less frequent. It's a bit of a rollercoaster, honestly.\nI hope that by talking about these things, it might help to find more stable ground. Thank you for listening and for being here with me through this.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.495866056330616,
+                "Flesch Reading Ease": 64.1,
+                "Gunning Fog Index": 10.64
+            },
+            "consistency": {
+                "entailment_score": 0.04695964232087135,
+                "neutral_score": 0.9502891302108765,
+                "contradiction_score": 0.002751246327534318,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9823267304263581,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9854040741920471
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5688
+            }
+        }
+    }
+][
+    {
+        "therapist": "You're very welcome, and I'm glad to be here to support you. It's understandable how certain environments and situations can heighten these feelings and behaviors. It sounds like crowded places and perceived unclean surfaces are significant triggers for your handwashing routine, while stress and a need for control seem to intensify your anxiety about order and nail-biting.\nRecognizing these triggers is a crucial step in managing them. It gives us insight into how these patterns operate in your life and can help us explore strategies to address them. For instance, we can work on developing techniques to manage anxiety in public spaces or create a more structured approach to handle stress without resorting to these routines.\nIt's encouraging to hear that you find some relief in familiar environments. We might want to explore how to bring some aspects of that comfort into more challenging situations.\nThis journey can indeed feel like a rollercoaster, with ups and downs, but discussing these experiences is a positive step forward. Together, we can work towards finding more balance and stability. If you're open to it, we could explore some coping strategies or small changes that might help you feel more in control. Remember, you're not alone in this, and I'm here to support you every step of the way.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.197580293528883,
+                "Flesch Reading Ease": 53.31,
+                "Gunning Fog Index": 11.44
+            },
+            "consistency": {
+                "entailment_score": 0.13581915199756622,
+                "neutral_score": 0.8621447682380676,
+                "contradiction_score": 0.0020361007191240788,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9794193060314775,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9939265847206116
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5721
+            }
+        }
+    },
+    {
+        "patient": "Thank you so much for your kind words and understanding. It really makes a difference to have this support. I think exploring coping strategies could be really helpful. Sometimes, just having a plan or a set of tools to turn to can make a situation feel less daunting.\nFor the handwashing, maybe we could look into techniques to gradually reduce the frequency. I've heard of exposure and response prevention therapy, where you slowly expose yourself to the trigger while resisting the urge to perform the compulsion. It sounds challenging, but it might be worth considering.\nAs for managing stress and the need for order, perhaps mindfulness or relaxation exercises could help. I've read that practicing deep breathing or progressive muscle relaxation can be effective in reducing anxiety. It might also be helpful to have a designated 'safe space' at home where I can retreat when I'm feeling overwhelmed.\nThe idea of bringing comfort from familiar environments into more challenging situations is interesting too. Maybe carrying a small, comforting object or having a grounding technique could help me feel more anchored in stressful settings.\nI know it's a journey, and there will be ups and downs, but I'm hopeful that with your support, I can start to find more balance. Thank you for being here with me through this. If you have any other suggestions or ideas, I'm open to trying them.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.536404616583933,
+                "Flesch Reading Ease": 55.84,
+                "Gunning Fog Index": 11.7
+            },
+            "consistency": {
+                "entailment_score": 0.13796089589595795,
+                "neutral_score": 0.8600903153419495,
+                "contradiction_score": 0.0019487700192257762,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0018558063924927273,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.701168954372406
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6323
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm really glad to hear that you're open to exploring these strategies. Having a plan and a set of tools can indeed make situations feel more manageable, and it's wonderful that you're already considering some effective approaches.\nExposure and Response Prevention (ERP) therapy is a well-established method for addressing compulsions like excessive handwashing. It involves gradually facing the triggers that cause anxiety while resisting the urge to engage in the compulsive behavior. It can be challenging, but with time and practice, it often leads to significant improvements. If you decide to pursue this, working with a therapist experienced in ERP can provide guidance and support throughout the process.\nMindfulness and relaxation exercises are excellent tools for managing stress and anxiety. Deep breathing, progressive muscle relaxation, and grounding techniques can help calm the mind and body. Creating a 'safe space' at home sounds like a great idea, offering you a retreat to practice these exercises when you need to recharge.\nCarrying a comforting object or using grounding techniques in stressful environments can also be very effective. These strategies can provide a sense of stability and control, helping you to feel more anchored during challenging moments.\nIt's important to remember that finding the right combination of strategies might take some time, and it's perfectly okay to experiment with different approaches to see what works best for you. You're taking a proactive step towards finding balance, and that's something to be proud of.\nI'm here to support you in any way I can. If you have any questions or need further guidance on any of these strategies, feel free to reach out. Together, we can navigate this journey and work towards finding more stability and peace in your life.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.810899315667925,
+                "Flesch Reading Ease": 44.85,
+                "Gunning Fog Index": 13.03
+            },
+            "consistency": {
+                "entailment_score": 0.028786061331629753,
+                "neutral_score": 0.9696496725082397,
+                "contradiction_score": 0.0015643480001017451,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 9.376033881008678e-05,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988309741020203
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6729
+            }
+        }
+    },
+    {
+        "patient": "Thank you so much for your encouragement and thoughtful suggestions. It's reassuring to know that there are established methods like ERP therapy that can help guide me through these challenges. I agree that working with a therapist who specializes in this approach could be incredibly beneficial, providing the structure and support needed to tackle these compulsions.\nI'm also eager to incorporate mindfulness and relaxation exercises into my daily routine. I think having a 'safe space' at home where I can regularly practice these techniques will be a positive step. The idea of carrying a comforting object or employing grounding techniques in stressful situations is appealing too. It's like having a little piece of calm to hold onto when the world feels overwhelming.\nI understand that finding the right strategies will take time, and I'm ready to explore different options to see what resonates best with me. Your support means a lot, and knowing that I have someone to turn to for guidance is incredibly comforting.\nIf I have any questions or if there's anything specific I'd like to try, I'll definitely reach out. Thank you for being here with me through this journey. Your support and understanding make a significant difference, and I'm hopeful about the progress we can make together.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.684780977801676,
+                "Flesch Reading Ease": 53.61,
+                "Gunning Fog Index": 12.73
+            },
+            "consistency": {
+                "entailment_score": 0.04347572848200798,
+                "neutral_score": 0.9525927305221558,
+                "contradiction_score": 0.003931472543627024,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.99162099211701,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9927815794944763
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.653
+            }
+        }
+    }
+][
+    {
+        "therapist": "You're very welcome, and I'm truly glad to be here to support you. Your openness and willingness to explore these strategies are commendable, and I'm confident that this proactive approach will lead to positive changes. It's great to hear that you're considering working with a therapist who specializes in ERP therapy, as having professional guidance can be invaluable in navigating these challenges.\nIncorporating mindfulness and relaxation exercises into your daily routine can be a wonderful way to manage stress and anxiety. Establishing a 'safe space' at home where you can practice these techniques regularly can provide a consistent source of comfort and grounding. Carrying a comforting object or using grounding techniques during stressful times can also serve as an anchor, helping you maintain a sense of calm when needed most.\nRemember, it's perfectly normal for this process to take time, and it's okay to experiment with different strategies to find what truly works for you. Your dedication to finding balance and peace is inspiring, and I'm here to support you at every step.\nPlease feel free to reach out anytime you have questions or need further guidance. Together, we can continue working towards greater stability and well-being. You're not alone in this journey, and I'm here to help you find the path that feels right for you.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.689671719058088,
+                "Flesch Reading Ease": 51.48,
+                "Gunning Fog Index": 13.78
+            },
+            "consistency": {
+                "entailment_score": 0.14940789341926575,
+                "neutral_score": 0.848462700843811,
+                "contradiction_score": 0.0021294441539794207,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9914947731359192,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9987038373947144
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7076
+            }
+        }
+    },
+    {
+        "patient": "Thank you so much for your ongoing support and encouragement. It truly means a lot to know that I have someone to turn to as I navigate these challenges. Your understanding and guidance provide a solid foundation for exploring these strategies and finding what works best for me.\nI\u2019m hopeful that with continued effort and the right support, I can make meaningful progress towards managing these compulsions and anxiety. It\u2019s reassuring to know that I don\u2019t have to go through this alone and that there are effective methods and tools available to help me along the way.\nI\u2019ll definitely keep you updated on how things are going and reach out if I need any further guidance or have questions. Your willingness to help and listen is incredibly comforting, and I\u2019m grateful to have you by my side on this journey. Thank you for being such a supportive presence in my life.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.397741333919276,
+                "Flesch Reading Ease": 60.75,
+                "Gunning Fog Index": 13.39
+            },
+            "consistency": {
+                "entailment_score": 0.17218518257141113,
+                "neutral_score": 0.8255960941314697,
+                "contradiction_score": 0.0022187032736837864,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.02640791725352476,
+                "context_emotion": "joy",
+                "response_emotion": "love",
+                "response_emotion_score": 0.971123456954956
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6335
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you so much for your kind words. It's been a privilege to be alongside you as you explore these challenges and work towards finding effective strategies. Your proactive approach and openness to different methods are truly commendable, and I believe they will lead to positive outcomes.\nAs we wrap up today's session, I encourage you to continue exploring the strategies we've discussed, such as mindfulness, relaxation techniques, and potentially working with a therapist experienced in ERP therapy. Remember, it's perfectly okay to take things one step at a time and to be patient with yourself as you navigate this journey.\nPlease know that you're not alone, and I'm here whenever you need to talk or seek guidance. Feel free to reach out anytime you have questions or simply want to share your progress. Your dedication to finding balance and well-being is inspiring, and I'm here to support you every step of the way.\nTake care, and I look forward to hearing from you soon. Remember, you have the strength and resources to make meaningful progress, and I'm here cheering you on. Have a great day!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.883026393746068,
+                "Flesch Reading Ease": 62.78,
+                "Gunning Fog Index": 11.92
+            },
+            "consistency": {
+                "entailment_score": 0.07106991857290268,
+                "neutral_score": 0.9278217554092407,
+                "contradiction_score": 0.0011083633871749043,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0009061784773237436,
+                "context_emotion": "love",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9984519481658936
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6404
+            }
+        }
+    },
+    {
+        "patient": "Thank you so much for your kind words and unwavering support. It\u2019s truly comforting to know that I have someone who believes in me and is here to help as I navigate this path. Your encouragement gives me hope and motivation to continue working towards finding balance and well-being.\nI appreciate all the suggestions and strategies we've discussed, and I'm eager to implement them at my own pace. Knowing that I have the option to reach out to a therapist for specialized guidance in ERP therapy is reassuring, and I\u2019ll consider it as I move forward.\nI\u2019ll definitely keep you updated on my progress and reach out if I have any questions or need further support. Your presence and understanding make this journey feel less daunting, and I\u2019m grateful for that.\nThank you once again for being here with me. Take care, and I hope you have a wonderful day as well. Looking forward to our next conversation!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.806247954854596,
+                "Flesch Reading Ease": 63.9,
+                "Gunning Fog Index": 11.13
+            },
+            "consistency": {
+                "entailment_score": 0.1709674596786499,
+                "neutral_score": 0.8265746235847473,
+                "contradiction_score": 0.0024579872842878103,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9951989423073115,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9967419505119324
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6813
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for your kind words and for allowing me to be a part of your journey. It's been a pleasure to support you as you explore these challenges and work towards finding effective strategies for managing your compulsions and anxiety. Your commitment to implementing the strategies we've discussed, such as mindfulness, relaxation techniques, and possibly engaging in ERP therapy, is commendable.\nAs we conclude today's session, I want to remind you that you're not alone, and it's okay to take things at your own pace. The journey towards balance and well-being is unique to each individual, and your proactive approach is a wonderful strength. Please feel free to reach out whenever you need support or have questions. I'm here to listen and guide you whenever you need it.\nTake care, and I look forward to hearing about your progress in our future conversations. Remember, you have the strength and resources to make meaningful progress, and I'm here cheering you on every step of the way. Have a great day!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.8983334996956,
+                "Flesch Reading Ease": 62.68,
+                "Gunning Fog Index": 11.51
+            },
+            "consistency": {
+                "entailment_score": 0.03594158962368965,
+                "neutral_score": 0.9628559350967407,
+                "contradiction_score": 0.001202472485601902,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9947418383058348,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9979933500289917
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6753
+            }
+        }
+    },
+    {
+        "patient": "Thank you so much for your encouraging words and for being such a supportive presence in my journey. It\u2019s truly comforting to know I have someone who believes in me and is ready to assist as I work towards managing these challenges. Your support gives me the motivation to continue exploring and implementing the strategies we've discussed.\nI appreciate the reminder that it's okay to take things at my own pace. This reassurance helps me feel more at ease as I navigate this journey towards balance and well-being. Knowing that I can reach out for guidance or simply to share my progress is incredibly reassuring.\nThank you once again for being here with me. I look forward to updating you on how things are going and continuing our conversations in the future. Your encouragement means a lot, and I\u2019m grateful for it. I hope you have a wonderful day as well, and I\u2019ll talk to you soon!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.400495444729742,
+                "Flesch Reading Ease": 64.0,
+                "Gunning Fog Index": 11.38
+            },
+            "consistency": {
+                "entailment_score": 0.6081414818763733,
+                "neutral_score": 0.39042237401008606,
+                "contradiction_score": 0.0014361359644681215,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9764204462578974,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9783837199211121
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6853
+            }
+        }
+    }
+]{
+    "total": 16,
+    "Perplexity": 16.918552831554713,
+    "Flesch Reading Ease": 59.03312499999999,
+    "Gunning Fog Index": 10.27,
+    "Entailment-Neutral-Consistency": 0.8294712789356709,
+    "Empathy": 0.6762079732596533,
+    "BERTScore": 0.57855
+}
