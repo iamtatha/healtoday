@@ -1,0 +1,54 @@
+{
+    "turns": [
+        {
+            "therapist": "Hello, I'm glad you're here today. How are you feeling?",
+            "patient": "*sighs* I don't know... I just feel so mad and annoyed all the time. Like, everything is just so unfair and I can't do anything right. *shrugs* What's the point, you know?",
+            "timestamp": "2025-04-11 20:11:09"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty frustrated and helpless right now. Can you tell me a little bit more about what's been going on that's making you feel this way?",
+            "patient": "*sighs again* School is just so boring and pointless. I don't understand why I have to be here. And my parents are always on my case about everything. They never let me do anything I want. It's just so... so... *trails off*",
+            "timestamp": "2025-04-11 20:11:23"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty disconnected from school and your parents right now. Can you tell me more about what's causing these feelings? Are there any specific situations or events that have triggered these emotions?",
+            "patient": "*sighs and looks down",
+            "timestamp": "2025-04-11 20:11:48"
+        },
+        {
+            "therapist": "Take your time, I'm here to listen.",
+            "patient": "*pauses before speaking in a mumbled tone* I don't know... I just feel like no one understands me. Like, they all just expect me to do what they want and never listen to what I have to say. It's just so... so... *trails off again*",
+            "timestamp": "2025-04-11 20:12:07"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty misunderstood and disconnected from the people around you right now. That can be a really tough and frustrating feeling. Can you tell me more about what it's like to feel this way?",
+            "patient": "*shrugs* I don't know... It just feels like no one cares about what I want or how I feel. They just expect me to do what they say and never question it. It's just so... so... *trails off again*",
+            "timestamp": "2025-04-11 20:12:25"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty disconnected from the people around you and like no one understands you right now. That can be a really tough and frustrating feeling. Can you tell me more about what it's like to feel this way?",
+            "patient": "*sighs* I don't know... It just feels like no one cares about me or what I want. They just expect me to do what they say and never question it. It's just so... so... *trails off*",
+            "timestamp": "2025-04-11 20:12:46"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty disconnected from the people around you and like no one understands you right now. That can be a really tough and frustrating feeling. Can you tell me more about what it's like to feel this way?",
+            "patient": "*shrugs* I don't know... It just feels like I'm stuck in this place and I can't do anything to change it. It's just so... so... *trails off*",
+            "timestamp": "2025-04-11 20:13:14"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty stuck and powerless right now. That can be a really tough feeling to experience. Can you tell me more about what it's like to feel this way?",
+            "patient": "*sighs and looks down* I don't know... I just feel so angry and resentful all the time. Like, I feel like no one cares about me or what I want. They just expect me to do what they say and never question it. It's just so...",
+            "timestamp": "2025-04-11 20:13:41"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty angry and resentful right now. That can be a really tough feeling to experience. Can you tell me more about what it's like to feel this way?",
+            "patient": "*sighs and looks down* I don't know... It just feels like no one understands me or cares about me. Like, they all just expect me to do what they say and never question it. It's just so... so... *trails off*",
+            "timestamp": "2025-04-11 20:13:59"
+        },
+        {
+            "therapist": "It sounds like you're feeling pretty misunderstood and disconnected from the people around you right now. That can be a really tough and frustrating feeling. Can you tell me more about what it's like to feel this way?",
+            "patient": "*shrugs* I don't know... It just feels like no one cares about me or what I want. They just expect me to do what they say and never question it. It's just so... so... *trails off*",
+            "timestamp": "2025-04-11 20:14:32"
+        }
+    ]
+}
