@@ -1,0 +1,47 @@
+{
+    "ODD": {
+        "Frequent irritability, anger, or frustration": {
+            "present": true
+        },
+        "Arguments with adults or authority figures": {
+            "present": true
+        },
+        "Defiance or refusal to follow rules": {
+            "present": true
+        },
+        "Deliberate annoyance of others or blaming others": {
+            "present": true
+        },
+        "Spitefulness or vindictive behavior": {
+            "present": true
+        }
+    },
+    "IED": {
+        "Sudden verbal or physical outbursts": {
+            "present": true
+        },
+        "Episodes of anger that feel uncontrollable or excessive": {
+            "present": true
+        },
+        "Damage to objects or fights that seem impulsive": {
+            "present": true
+        },
+        "Guilt or regret after losing control": {
+            "present": true
+        }
+    },
+    "CD": {
+        "Repeated bullying, threats, or physical fights": {
+            "present": true
+        },
+        "Cruelty to animals or people": {
+            "present": true
+        },
+        "Vandalism, stealing, or lying": {
+            "present": true
+        },
+        "Skipping school, staying out late, or running away": {
+            "present": true
+        }
+    }
+}
