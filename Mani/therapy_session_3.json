@@ -1,0 +1,54 @@
+{
+    "turns": [
+        {
+            "therapist": "Hello, I'm glad you're here today. How are you feeling?",
+            "patient": "(angrily) I don't want to be here! I hate this stupid therapy stuff! Why do I have to come here every week?!",
+            "timestamp": "2025-04-11 20:20:27"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated right now. Can you tell me a little bit more about why you feel that way? Maybe we can figure out a way to make therapy more helpful for you.",
+            "patient": "(resentfully) It's just so boring! And the games we play are so lame! I don't see how any of this is going to help me.",
+            "timestamp": "2025-04-11 20:20:39"
+        },
+        {
+            "therapist": "(empathetically) I hear that you're feeling bored and frustrated with the therapy activities. It can be challenging to engage in something that feels irrelevant or uninteresting. Can you tell me a little bit more about what you would find more engaging or interesting? Maybe we can incorporate some of those elements into our sessions.",
+            "patient": "\" and be honest but also resistant or moody at times.",
+            "timestamp": "2025-04-11 20:21:00"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated right now. Can you tell me a little bit more about why you feel that way? Maybe we can figure out a way to make therapy more helpful for you.",
+            "patient": "(angrily) I don't know, okay?! I just don't see the point of any of this! I don't like talking about my feelings and stuff. It's all so stupid!",
+            "timestamp": "2025-04-11 20:21:24"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated and resistant to the idea of therapy right now. That's completely understandable. Sometimes it can be hard to open up and talk about our feelings, especially if we've had negative experiences in the past. Can you tell me a little bit more about what might be causing you to feel this way? Maybe we can find a way to make therapy feel more safe and supportive for you.",
+            "patient": "(resentfully) Fine! I guess it's just that my parents are always on my case about everything! They never let me do anything fun, and they're always telling me what to do. And now I have to come here and talk about all this stuff that I don't even care about! It's just so unfair!",
+            "timestamp": "2025-04-11 20:22:01"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated with your parents and the expectations they have for you. It can be challenging to feel like we're being controlled or told what to do all the time, especially when we're trying to figure out our own identities and make our own choices. Can you tell me a little bit more about what it's like to live with your parents and their expectations? Maybe we can find a way to help you feel more supported and empowered in your relationships with them.",
+            "patient": "(angrily) I don't know, okay?! I just wish they would leave me alone and let me live my own life! But they never will, because they're always trying to control everything!",
+            "timestamp": "2025-04-11 20:22:26"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated with your parents and their control over your life. It can be challenging to feel like we're not able to make our own choices and decisions, especially when we're trying to figure out our own identities and make our own way in the world. Can you tell me a little bit more about what it's like to live with your parents and their control? Maybe we can find a way to help you feel more supported and empowered in your relationships with them.",
+            "patient": "\" and be honest but also resistant or moody at times.",
+            "timestamp": "2025-04-11 20:22:58"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated right now. Can you tell me a little bit more about why you feel that way? Maybe we can figure out a way to make therapy more helpful for you.",
+            "patient": "(angrily) I don't know, okay?! I just don't see the point of any of this! I don't like talking about my feelings and stuff. It's all so stupid!",
+            "timestamp": "2025-04-11 20:23:15"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated and resistant to the idea of therapy right now. That's completely understandable. Sometimes it can be hard to open up and talk about our feelings, especially if we've had negative experiences in the past. Can you tell me a little bit more about what might be causing you to feel this way? Maybe we can find a way to make therapy feel more safe and supportive for you.",
+            "patient": "(resentfully) Fine! I guess it's just that my parents are always on my case about everything! They never let me do anything fun, and they're always telling me what to do. And now I have to come here and talk about all this stuff that I don't even care about! It's just so unfair!",
+            "timestamp": "2025-04-11 20:23:48"
+        },
+        {
+            "therapist": "(calmly) It sounds like you're feeling pretty frustrated with your parents and the expectations they have for you. It can be challenging to feel like we're being controlled or told what to do all the time, especially when we're trying to figure out our own identities and make our own choices. Can you tell me a little bit more about what it's like to live with your parents and their expectations? Maybe we can find a way to help you feel more supported and empowered in your relationships with them.",
+            "patient": "(angrily) I don't know, okay?! I just wish they would leave me alone and let me live my own life! But they never will, because they're always trying to control everything!",
+            "timestamp": "2025-04-11 20:24:26"
+        }
+    ]
+}
