@@ -1,5 +1,5 @@
 Directory Structure
-$ tree
+$ ./tree-md .
 .
 ├── prompts
 │   ├── file11.ext
