@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 class ConversationMonitor:
-    def __init__(self):
+    def __init__(self, time=300):
         self.wpm = 110                          # words spoken per minute
         self.pause_between = 5                  # pause between therapist question and answer
         self.time_elapsed = 0                   # total time elapsed since the beginning of the conversation
-        self.conversation_limit = 1200           # total tentative time of conversation (in seconds)
+        self.conversation_limit = time           # total tentative time of conversation (in seconds)
         
         self.wps = self.wpm / 60
         self.conversation_stopper_time = self.conversation_limit * 0.9

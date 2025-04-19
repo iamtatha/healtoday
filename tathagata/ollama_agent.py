@@ -11,8 +11,8 @@ import pandas as pd
 
 
 class OllamaAgent:
-    def __init__(self, therapist_model, patient_model):
-        self.output_file_name = f"results/{therapist_model}_{patient_model}_conversation"
+    def __init__(self, therapist_model, patient_model, conversation_time):
+        self.output_file_name = f"results/{therapist_model}_{patient_model}_{conversation_time}_conversation"
         self.output_txt_file = open(f"{self.output_file_name}.txt", 'w')
         self.output_json_file = open(f"{self.output_file_name}.json", 'w')
         self.therapist_model = therapist_model
@@ -20,6 +20,7 @@ class OllamaAgent:
         self.avg_metrics = {'total': 0}
         self.avg_therapist_metrics = {'total': 0}
         self.avg_patient_metrics = {'total': 0}
+        self.conversation_time = conversation_time * 60
         self.getPrompts()
         self.getModels()
         self.startConversation()
@@ -27,7 +28,7 @@ class OllamaAgent:
         
     def storeMetrics(self, therapist_model, patient_model):
         filename = f"results/summary_metrics.xlsx"
-        metrics = {"Model": f"{therapist_model}_{patient_model}"}
+        metrics = {"Model": f"{therapist_model}_{patient_model}", "Time (min)": self.conversation_time/60}
         for key in self.avg_metrics:
             metrics[key] = self.avg_metrics[key]
         
@@ -143,7 +144,7 @@ class OllamaAgent:
         message = self.therapist_prompt
         patient_initial = self.conversation_2.predict(input = self.patient_prompt)
         self.memory_2.save_context({"input": self.patient_prompt}, {"output": patient_initial})
-        monitor = ConversationMonitor()
+        monitor = ConversationMonitor(self.conversation_time)
         iteration = 0
         save_interval = 1
         responses = []
@@ -193,11 +194,13 @@ class OllamaAgent:
 
 therapist_model = "llama3.2"
 patient_model = "llama3.2"
+conv_time = 5
 if len(sys.argv) < 3:
-    print("\n\nUsage: python3 llama_agent.py <therapist_model_name> <patient_model_name>")
-    print(f"Default is used | therapist_model: {therapist_model} | patient_model: {patient_model}\n\n")
+    print("\n\nUsage: python3 llama_agent.py <therapist_model_name> <patient_model_name> <conversation_time_limit>")
+    print(f"Default is used | therapist_model: {therapist_model} | patient_model: {patient_model} | conversation_time_limit: {conv_time}\n\n")
 else:
     therapist_model = sys.argv[1] 
     patient_model = sys.argv[2]
+    conv_time = int(sys.argv[3])
     
-OllamaAgent(therapist_model, patient_model)
+OllamaAgent(therapist_model, patient_model, conv_time)

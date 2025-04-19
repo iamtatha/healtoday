@@ -2,6 +2,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.llms import Ollama
 from langchain.chains import ConversationChain
 from langchain.chat_models import ChatOpenAI
+import google.generativeai as genai
 import time
 import sys
 import json
@@ -14,17 +15,16 @@ import openai
 load_dotenv(override=True)
 
 
-class GPTAgent:
-    def __init__(self, therapist_model, patient_model, conversation_time):
-        self.output_file_name = f"results/{therapist_model}_{patient_model}_{conversation_time}_conversation"
+class GeminiAgent:
+    def __init__(self, conversation_time):
+        self.model_name = "gemini-2.5-pro-exp"
+        self.output_file_name = f"results/{self.model_name}-03-25_{self.model_name}-03-25_{conversation_time}_conversation"
         self.output_txt_file = open(f"{self.output_file_name}.txt", 'w')
         self.output_json_file = open(f"{self.output_file_name}.json", 'w')
-        api_key = os.getenv("OPENAI_KEY")
-        org = os.getenv("OPENAI_ORG")
-        openai.api_key = api_key
-        openai.organization = org
-        self.therapist_model = therapist_model
-        self.patient_model = patient_model
+        api_key = os.getenv("GEMINI_API_KEY")
+        self.api_key = api_key
+        self.therapist_model = self.model_name
+        self.patient_model = self.model_name
         self.avg_metrics = {'total': 0}
         self.avg_therapist_metrics = {'total': 0}
         self.avg_patient_metrics = {'total': 0}
@@ -32,7 +32,7 @@ class GPTAgent:
         self.getPrompts()
         self.getModels()
         self.startConversation()
-        self.storeMetrics(therapist_model, patient_model)
+        self.storeMetrics(self.therapist_model, self.patient_model)
         
     def storeMetrics(self, therapist_model, patient_model):
         filename = f"results/summary_metrics.xlsx"
@@ -60,13 +60,27 @@ class GPTAgent:
             self.therapist_end_prompt = file.read()
 
     def getModels(self):
-        self.agent_1 = ChatOpenAI(model_name=self.therapist_model, temperature=0.7, openai_api_key=openai.api_key)
-        self.agent_2 = ChatOpenAI(model_name=self.patient_model, temperature=0.7, openai_api_key=openai.api_key)
-        self.memory_1 = ConversationBufferMemory()
-        self.memory_2 = ConversationBufferMemory()
-
-        self.conversation_1 = ConversationChain(llm = self.agent_1, memory = self.memory_1)
-        self.conversation_2 = ConversationChain(llm = self.agent_2, memory = self.memory_2)
+        genai.configure(api_key=self.api_key)
+        generation_config = {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": 64,
+            "max_output_tokens": 65536,
+            "response_mime_type": "text/plain",
+        }
+        
+        model1 = genai.GenerativeModel(
+            model_name=f"{self.model_name}-03-25",
+            generation_config=generation_config,
+        )
+        self.chat_session1 = model1.start_chat(history=[])
+        
+        model2 = genai.GenerativeModel(
+            model_name=f"{self.model_name}-03-25",
+            generation_config=generation_config,
+        )
+        self.chat_session2 = model2.start_chat(history=[])
+        
 
     def getMetrics(self, person, context, response):
         perplexity = PerplexityMetric()
@@ -149,8 +163,7 @@ class GPTAgent:
      
     def startConversation(self):
         message = self.therapist_prompt
-        patient_initial = self.conversation_2.predict(input = self.patient_prompt)
-        self.memory_2.save_context({"input": self.patient_prompt}, {"output": patient_initial})
+        patient_initial = self.chat_session1.send_message(self.patient_prompt).text
         monitor = ConversationMonitor(self.conversation_time)
         iteration = 0
         save_interval = 1
@@ -162,20 +175,20 @@ class GPTAgent:
                 break
             
             if monitor.stop_alert:
-                response_1 = self.conversation_1.predict(input=f"{self.therapist_end_prompt}{message}")
+                response_1 = self.chat_session1.send_message(f"{self.therapist_end_prompt}{message}").text
             else:
-                response_1 = self.conversation_1.predict(input=message)
+                response_1 = self.chat_session1.send_message(message).text
                 
             response_1 = response_1.replace('\n\n', '\n')
-            self.memory_1.save_context({"input": message}, {"output": response_1})
+            # self.memory_1.save_context({"input": message}, {"output": response_1})
             self.output_txt_file.write(f"Therapist: \n{response_1}\n\n")
             monitor.checkStoppingCondition(response_1)
             
             
             # response_2 = input('Agent 2:')
-            response_2 = self.conversation_2.predict(input=response_1)
+            response_2 = self.chat_session2.send_message(response_1).text
             response_2 = response_2.replace('\n\n', '\n')
-            self.memory_2.save_context({"input": response_1}, {"output": response_2})
+            # self.memory_2.save_context({"input": response_1}, {"output": response_2})
             
             self.output_txt_file.write(f"Patient: \n{response_2}\n\n\n")
             monitor.checkStoppingCondition(response_2)
@@ -200,13 +213,11 @@ class GPTAgent:
         
 
 
-if len(sys.argv) < 4:
-    print("\n\nUsage: python3 gpt_agent.py <therapist_model_name> <patient_model_name> <conversation_time_limit>")
+if len(sys.argv) < 2:
+    print("\n\nUsage: python3 gemini_agent.py <conversation_time_limit>")
     # print(f"Default is used | therapist_model: {therapist_model} | patient_model: {patient_model} | conversation_time_limit: {patient_model}\n\n")
     sys.exit(1)
 else:
-    therapist_model = sys.argv[1] 
-    patient_model = sys.argv[2]
-    conv_time = int(sys.argv[3])
+    conv_time = int(sys.argv[1])
     
-GPTAgent(therapist_model, patient_model, conv_time)
+GeminiAgent(conv_time)
