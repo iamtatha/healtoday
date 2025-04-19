@@ -1,0 +1,213 @@
+[
+    {
+        "therapist": " Welcome to our session today. I'm here to help you, and we'll be spending some time talking about what's been going on with you recently. It's important for us to understand your thoughts, feelings, and behaviors so that together we can figure out the best way to support you.\nLet's start by discussing your daily routine. Can you tell me about a typical day in your life? What activities do you find yourself doing repeatedly or feeling the need to do them over and over again?\nAlso, have there been any thoughts, urges, or images that keep popping up in your mind, even though you might not want them to? These could be anything from unwanted thoughts about cleanliness, safety, religion, or other things that bother you. I'm just interested in understanding more about what's going on inside your head.\nLastly, if there are any rituals or specific ways you have to do things, such as ordering items in a certain way, counting things repeatedly, or feeling the need to check things multiple times, could you share those with me as well? I want to make sure we're on the same page and can work together effectively.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.337380918260806,
+                "Flesch Reading Ease": 61.77,
+                "Gunning Fog Index": 10.41
+            },
+            "consistency": {
+                "entailment_score": 0.060933005064725876,
+                "neutral_score": 0.9251050353050232,
+                "contradiction_score": 0.01396202202886343,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.35731988829067696,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9790894389152527
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4975
+            }
+        }
+    },
+    {
+        "patient": " Thank you for your understanding and patience. Let me try to describe my typical day as best as I can.\nMost mornings start off fine, but as the day progresses, I find myself feeling increasingly anxious about cleanliness. This often leads to washing my hands more frequently than necessary, even after just leaving the bathroom. For instance, if I touch a doorknob or pick up an object, I might feel compelled to wash my hands again because of the fear of germs.\nThroughout the day, I also find myself constantly checking and rechecking things to ensure they're in their proper place. This can be anything from my belongings at home to items at work or even objects on the street while I'm out. If something is not exactly where it should be, it causes me a great deal of distress.\nAnother issue I struggle with is my nail-biting habit. Even though I try to control it, I find myself biting my nails repeatedly throughout the day. The urge to do so is often uncontrollable and can cause physical discomfort as well as mental tension.\nAs for unwanted thoughts or images, I often find myself preoccupied with fears of contamination or harm befalling me or those close to me. These thoughts can be intrusive and difficult to shake off, causing me significant anxiety.\nLastly, I have a few rituals that help me cope with these obsessions. For instance, when washing my hands, I feel the need to use specific products in a certain order and for a specific length of time. Additionally, before leaving the house or going to bed, I may engage in compulsive behaviors such as checking locks multiple times or arranging items in a specific way to alleviate my anxiety.\nI hope this gives you a better understanding of what I'm dealing with on a daily basis. Thank you for your attention and understanding.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.58398771967792,
+                "Flesch Reading Ease": 62.07,
+                "Gunning Fog Index": 10.96
+            },
+            "consistency": {
+                "entailment_score": 0.048057593405246735,
+                "neutral_score": 0.9484960436820984,
+                "contradiction_score": 0.0034463058691471815,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00030514660323102336,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9967936873435974
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5566
+            }
+        }
+    }
+][
+    {
+        "therapist": " I appreciate the detail you've provided, and it sounds like we have some work to do together to help manage these challenging thoughts and behaviors. It's great that you're seeking support, as recognizing and addressing these issues is a crucial step towards improving your wellbeing. Let's focus on understanding more about the unwanted thoughts you mentioned, such as fears of contamination or harm. Can you share with me what these thoughts look like for you and how they make you feel? Also, I noticed that you mentioned having a nail-biting habit that causes discomfort. Have you considered any strategies to help manage this habit, and if so, what have been your experiences with those methods? Lastly, do these rituals and compulsions (such as the specific handwashing routine or the need for certain objects to be in their proper place) provide immediate relief when performed, or do they tend to increase anxiety over time? Understanding more about these aspects will help us develop an effective plan to support your overall well-being.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.565182244384953,
+                "Flesch Reading Ease": 49.86,
+                "Gunning Fog Index": 14.17
+            },
+            "consistency": {
+                "entailment_score": 0.05411050096154213,
+                "neutral_score": 0.9419746398925781,
+                "contradiction_score": 0.003914795350283384,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.020719725334059302,
+                "context_emotion": "fear",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9550907611846924
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5514
+            }
+        }
+    },
+    {
+        "patient": " Thank you for your understanding and encouragement. Let me share some insights into my unwanted thoughts, nail-biting habit, and rituals.\nRegarding the fears of contamination or harm, these thoughts often manifest as persistent, intrusive images of germs, viruses, or dangerous situations that could potentially cause harm to myself or loved ones. These thoughts can be accompanied by feelings of intense anxiety, fear, and a strong desire to avoid the perceived source of danger. I've found that trying to suppress or ignore these thoughts only makes them more persistent, so it's challenging for me to manage them effectively on my own.\nAs for my nail-biting habit, I have tried several strategies in the past to help manage this issue. These include keeping my nails short, using bitter-tasting polish, and wearing gloves. However, these methods only provide temporary relief, as the urge to bite my nails usually returns. Additionally, these habits can exacerbate the anxiety associated with my obsessions, as I become more preoccupied with maintaining my appearance.\nLastly, the rituals and compulsions that I engage in do provide some immediate relief when performed; however, over time, they tend to increase my anxiety levels and create a cycle of obsessive-compulsive behavior. For example, if I wash my hands according to my specific routine, I might feel temporarily relieved, but then the need to maintain this routine becomes more compulsive, causing additional stress and anxiety.\nBy understanding these aspects, we can work together to develop an effective plan that addresses both the unwanted thoughts and obsessive-compulsive behaviors. This plan may include cognitive-behavioral therapy, exposure and response prevention, relaxation techniques, and other evidence-based strategies. I appreciate your support and look forward to working with you towards improved well-being.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.12847205279187,
+                "Flesch Reading Ease": 33.95,
+                "Gunning Fog Index": 15.02
+            },
+            "consistency": {
+                "entailment_score": 0.8122943043708801,
+                "neutral_score": 0.1861347258090973,
+                "contradiction_score": 0.0015709715662524104,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0020193794500827367,
+                "context_emotion": "sadness",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9931489825248718
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.615
+            }
+        }
+    }
+][
+    {
+        "therapist": " With the information provided, it seems that the individual has symptoms of Obsessive-Compulsive Disorder (OCD). The individual recognizes that their thoughts and behaviors cause distress and are impairing their quality of life. They have tried various strategies to manage their nail-biting habit, but these methods only provide temporary relief. The rituals and compulsions associated with their OCD provide immediate relief when performed but exacerbate anxiety levels over time.\n   In terms of the individual's understanding and insight into their symptoms, it appears that they have good self-awareness and are motivated to seek help for their condition. Their recognition that trying to suppress or ignore thoughts only makes them more persistent shows an understanding of important principles in cognitive-behavioral therapy (CBT).\n   To further assist this individual, it may be helpful to refer them to a mental health professional trained in CBT and exposure and response prevention (ERP), as these are evidence-based treatments for OCD. The therapist can help the individual learn skills to challenge their obsessive thoughts, manage anxiety, and gradually reduce their compulsive behaviors through gradual exposure to feared situations. Additionally, it may be helpful to explore other coping strategies such as relaxation techniques, mindfulness, and stress management to support overall well-being.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.73216428586191,
+                "Flesch Reading Ease": 23.46,
+                "Gunning Fog Index": 17.48
+            },
+            "consistency": {
+                "entailment_score": 0.33496108651161194,
+                "neutral_score": 0.6462815999984741,
+                "contradiction_score": 0.01875731721520424,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.24597740630518672,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.647050678730011
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6423
+            }
+        }
+    },
+    {
+        "patient": " Thank you for your insightful analysis. Based on the information provided, it appears that a referral to a mental health professional specializing in cognitive-behavioral therapy (CBT) and exposure and response prevention (ERP) would be beneficial for the individual. These therapies have been shown to be effective in addressing Obsessive-Compulsive Disorder (OCD).\nIn addition, teaching the individual relaxation techniques, mindfulness, and stress management skills may help them better manage their anxiety levels and improve their overall well-being. It's essential for the individual to understand that these techniques are complementary to therapy and do not replace it.\nMoreover, it might be helpful to educate the individual about OCD, its causes, symptoms, and treatment options, so they can better understand their condition and feel more empowered in managing it. This education can also help reduce feelings of shame or guilt often associated with OCD.\nLastly, it's crucial to remind the individual that seeking help is a courageous step toward improving their quality of life and overcoming their struggles. Encouraging them to be patient with themselves and the process of recovery will be essential in maintaining motivation and adherence to treatment recommendations.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 12.209745678125541,
+                "Flesch Reading Ease": 24.88,
+                "Gunning Fog Index": 17.93
+            },
+            "consistency": {
+                "entailment_score": 0.3860030174255371,
+                "neutral_score": 0.6077184677124023,
+                "contradiction_score": 0.0062784780748188496,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00011215027258054851,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988963603973389
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6987
+            }
+        }
+    }
+][
+    {
+        "therapist": " Thank you for your thoughtful response. It's wonderful that you are considering various strategies to support this individual's journey toward improved mental health. In addition to the recommendations you've already made, here are a few more suggestions that might be helpful:\n1. Encourage the individual to develop a strong support network. This can include family members, friends, or support groups specifically for people with OCD. Sharing experiences and feelings with others who understand can be very empowering and provide valuable insights.\n2. Suggest the individual find ways to engage in enjoyable activities that do not trigger their OCD symptoms. Finding hobbies or interests can help distract from obsessive thoughts and provide a sense of accomplishment and fulfillment.\n3. Encourage the use of positive self-talk and affirmations. Helping the individual develop a more compassionate inner dialogue can support emotional well-being and reduce feelings of guilt or shame.\n4. Remind the individual that recovery from OCD is not linear; there will be ups and downs along the way. Encourage them to be patient with themselves, celebrate small victories, and remain committed to their treatment plan even during challenging times.\n5. Suggest the individual explore mindfulness-based stress reduction (MBSR) programs or apps as a tool for managing anxiety and increasing awareness of thoughts and emotions without judgment.\n6. If the individual is struggling with school, work, or social life due to OCD symptoms, consider recommending accommodations or adjustments that can help alleviate some of the stress related to these areas. This may include flexible scheduling, modified work assignments, or academic accommodations.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.124856331056634,
+                "Flesch Reading Ease": 37.1,
+                "Gunning Fog Index": 14.48
+            },
+            "consistency": {
+                "entailment_score": 0.28342488408088684,
+                "neutral_score": 0.7136157751083374,
+                "contradiction_score": 0.0029593277722597122,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.16594153831697156,
+                "context_emotion": "joy",
+                "response_emotion": "love",
+                "response_emotion_score": 0.8285620808601379
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6386
+            }
+        }
+    },
+    {
+        "patient": "1. Support the individual in developing a strong support network, as having people who understand their struggles and can share experiences can be empowering and provide valuable insights. This can include family members, friends, or support groups specifically for people with OCD.\n2. Encourage the individual to find ways to engage in enjoyable activities that do not trigger their OCD symptoms. Finding hobbies or interests can help distract from obsessive thoughts and provide a sense of accomplishment and fulfillment.\n3. Encourage the use of positive self-talk and affirmations, helping the individual develop a more compassionate inner dialogue to support emotional well-being and reduce feelings of guilt or shame.\n4. Remind the individual that recovery from OCD is not linear; there will be ups and downs along the way. Encourage them to celebrate small victories, remain patient with themselves, and stay committed to their treatment plan even during challenging times.\n5. Suggest exploring mindfulness-based stress reduction (MBSR) programs or apps as a tool for managing anxiety and increasing awareness of thoughts and emotions without judgment.\n6. If the individual is struggling with school, work, or social life due to OCD symptoms, consider recommending accommodations or adjustments that can help alleviate some of the stress related to these areas. This may include flexible scheduling, modified work assignments, or academic accommodations.\n7. Emphasize the importance of self-care and encourage the individual to prioritize activities that promote physical and emotional wellness, such as regular exercise, balanced nutrition, adequate sleep, and relaxation techniques.\n8. Collaborate with the mental health professional treating the individual to develop a comprehensive treatment plan tailored to their unique needs and goals. This may include medication management, therapy sessions, and lifestyle modifications.\n9. Encourage the individual to practice self-compassion and understanding, recognizing that recovery takes time and effort but is achievable with persistence and support.\n10. Provide resources for the individual and their loved ones about OCD, its causes, symptoms, and treatment options, so they can better understand the condition and feel more empowered in managing it. This education can also help reduce feelings of shame or guilt often associated with OCD.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.272017016288576,
+                "Flesch Reading Ease": 23.87,
+                "Gunning Fog Index": 16.74
+            },
+            "consistency": {
+                "entailment_score": 0.9162684679031372,
+                "neutral_score": 0.06642663478851318,
+                "contradiction_score": 0.017304977402091026,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0007923002924469826,
+                "context_emotion": "love",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9981424808502197
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.8146
+            }
+        }
+    }
+]{
+    "total": 8,
+    "Perplexity": 13.952053166023425,
+    "Flesch Reading Ease": 31.89875,
+    "Gunning Fog Index": 13.3475,
+    "Entailment-Neutral-Consistency": 0.6983311623334885,
+    "Empathy": 0.054483455821819855,
+    "BERTScore": 0.56465
+}

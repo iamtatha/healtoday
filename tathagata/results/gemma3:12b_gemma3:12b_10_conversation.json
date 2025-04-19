@@ -1,0 +1,162 @@
+[
+    {
+        "therapist": "Welcome! It's good to see you today. Please, have a seat and make yourself comfortable. I'm here to listen and understand what\u2019s been going on for you. To get started, could you tell me a little bit about what brings you in today? What's been troubling you? Don't feel pressured to share anything you're not ready to, just start wherever feels natural.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 28.759345470799108,
+                "Flesch Reading Ease": 77.94,
+                "Gunning Fog Index": 6.7
+            },
+            "consistency": {
+                "entailment_score": 0.14983578026294708,
+                "neutral_score": 0.8318327069282532,
+                "contradiction_score": 0.018331533297896385,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00028025939445832856,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9961802959442139
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3714
+            }
+        }
+    },
+    {
+        "patient": "(My shoulders hunch slightly, and I pick at the loose thread on my sweater again, tugging at it gently. I glance up briefly at the therapist, then quickly look back down at my hands, which I\u2019m now twisting in my lap.)\nOh\u2026 um\u2026 well. It\u2019s\u2026 it\u2019s a lot, really. It's just\u2026 things feel\u2026 off. Not *wrong*, exactly. Just\u2026 not quite\u2026 right. Like\u2026 like a picture that\u2019s slightly crooked on the wall. It\u2019s not *terrible*, you understand? It\u2019s just\u2026 it bothers me. It draws my attention. \n(I bite my fingernail, unconsciously. I quickly stop, as if caught.)\nI\u2026 I guess I\u2019ve just been feeling\u2026 more anxious than usual. It\u2019s hard to explain. It's like... everything needs to be... just so. And when it\u2019s not\u2026 it creates this\u2026 feeling. This pressure. \n(I pause, taking a small, shaky breath. My gaze flits around the room, avoiding direct eye contact.)\nI\u2019m a bit\u2026 disorganized, I suppose. Not always. Sometimes I\u2019m\u2026 quite meticulous. Very particular. It\u2019s just\u2026 other times\u2026 things get\u2026 misplaced. And then I have to find them. And re-arrange. To make it\u2026 right. It's a need.\n\n(Another short pause, I fiddle with a button on my sweater.)\nIt\u2019s silly, I know. Probably.\n",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.028642728441934,
+                "Flesch Reading Ease": 80.88,
+                "Gunning Fog Index": 4.97
+            },
+            "consistency": {
+                "entailment_score": 0.07231619954109192,
+                "neutral_score": 0.8161431550979614,
+                "contradiction_score": 0.11154057830572128,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9930424010694168,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9968500733375549
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4023
+            }
+        }
+    }
+][
+    {
+        "therapist": "That's very helpful, thank you for sharing that. It takes courage to talk about these kinds of feelings, and it sounds like you\u2019re experiencing something that's causing you a fair bit of discomfort. You've described it beautifully \u2013 that sense of things being \"off,\" that pressure you feel when things aren't \"right.\" And you\u2019re right, it's not always easy to articulate these kinds of experiences.\nYou mentioned a need to find things and re-arrange them to make them \"right.\" Can you tell me a little more about what happens when things *aren't* arranged in a way that feels right? What does that feeling of pressure feel like? And what kinds of things do you find yourself needing to re-arrange or find? Don't worry about making sense \u2013 just describe what happens, how it feels.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.635249466173537,
+                "Flesch Reading Ease": 73.47,
+                "Gunning Fog Index": 7.4
+            },
+            "consistency": {
+                "entailment_score": 0.15453065931797028,
+                "neutral_score": 0.5061221122741699,
+                "contradiction_score": 0.33934715390205383,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.009561725951985511,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9369239211082458
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5164
+            }
+        }
+    },
+    {
+        "patient": "(My breathing hitches slightly, and I pull my knees up to my chest, wrapping my arms around them. I pick at a tiny, almost invisible fray on my jeans, avoiding the therapist\u2019s gaze completely.)\nOh\u2026 um\u2026 well\u2026 it\u2019s not a\u2026 it\u2019s not a pleasant feeling, that\u2019s for sure. It\u2019s\u2026 (I pause, searching for the right words) It\u2019s like\u2026 like there\u2019s a weight on my chest. A tightness. And it's not just\u2026 discomfort. It\u2019s\u2026 a buzzing. A constant\u2026 hum. In my head. And it gets\u2026 louder. The hum. Until I\u2026 until I have to do something.\n(I bite my fingernail again, and this time I don\u2019t stop it. I chew on it absently.)\nIt's hard to explain. It's not like I *want* to rearrange things. It's more like... I *have* to. Otherwise\u2026 otherwise the buzzing doesn\u2019t stop. Or the tightness\u2026 eases. Just a little. Just enough.\n(I glance at my hands quickly, then look down at them again, twisting my fingers together.)\nIt\u2019s usually\u2026 small things. Like\u2026 keys. They need to be in a certain spot. Very specific. Or\u2026 pens. They need to be lined up. By color. Or\u2026 sometimes\u2026 it\u2019s bigger things. Like\u2026 books. On a shelf. They need to be in alphabetical order. Or by size. It depends.\n(I swallow hard, my throat feeling dry.)\nI know it sounds\u2026 ridiculous. I know it probably isn\u2019t\u2026 normal. I just\u2026 I can't help it. The feeling... it's so intense. It's like\u2026 if I don't do it\u2026 something bad will happen. I don't know what. But it *will* happen.\n(I pull my knees tighter to my chest, a small tremor running through my hands.)\nAnd\u2026 and then sometimes\u2026 after I\u2019ve rearranged things\u2026 I worry that I\u2019m going to mess it up again. That I\u2019m going to\u2026 lose track. That it won\u2019t be\u2026 right. And then the buzzing\u2026 will start again.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.42226613882695,
+                "Flesch Reading Ease": 89.04,
+                "Gunning Fog Index": 4.9
+            },
+            "consistency": {
+                "entailment_score": 0.012652934528887272,
+                "neutral_score": 0.7740856409072876,
+                "contradiction_score": 0.2132614701986313,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0026328563244869957,
+                "context_emotion": "joy",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9816023707389832
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4996
+            }
+        }
+    }
+][
+    {
+        "therapist": "Okay, this is excellent progress. You've done a great job of eliciting detailed descriptions of the behaviors and the distress associated with them. The descriptions are rich in sensory details (\"weight on my chest,\" \"buzzing,\" \"hum\") which are crucial for understanding the severity and nature of the distress. The \"something bad will happen\" phrasing is also very significant.\nHere's my response, designed to continue the exploration, focusing on clarifying the compulsion, the beliefs associated with it, and further exploring the impact on the person\u2019s life. I'm also subtly laying groundwork for exploring the origin of these beliefs.\n\"That 'something bad'\u2026 could you tell me more about that? What kind of 'something bad' are you worried about if you *don't* rearrange things? It's brave of you to share how intense this feeling is. It sounds incredibly distressing, and it\u2019s understandable to feel compelled to act on it to alleviate the distress.\nYou mentioned it depends what you rearrange \u2013 sometimes small items like pens, sometimes bigger things like books. Does the feeling of needing to rearrange feel the same intensity regardless of what it is? Do you ever feel like you *could* resist the urge, but something stops you? Or is it more that you don't even feel you have a choice in the matter?\nAnd you said you worry about messing things up *after* you\u2019ve rearranged them. How long does that worry last? Does it tend to go away on its own, or does it require you to double-check things?\"\n**Rationale behind this response:**\n*   **Directly Addresses the \"Something Bad\":** This is a critical belief to explore. It\u2019s likely rooted in a misattribution of responsibility \u2013 the individual may feel responsible for preventing something negative, even if there's no logical connection.\n*   **Explores Intensity and Control:** The question about intensity and control is important for differentiating between a rigid compulsion (little to no perceived choice) and a more flexible ritual where some resistance might be possible.\n*   **Probes Post-Action Anxiety:** The worry after rearranging highlights a fear of losing control or a belief that the \u201crightness\u201d of the arrangement is fragile and easily disrupted.\n*   **Non-Judgmental and Validating:** Continues to acknowledge the distress and validates the experience (\"It's brave of you...\").\n*   **Open-Ended Questions:** Encourages further elaboration and prevents leading the conversation.\n\n**What I'm looking for now:**\n*   **More Detail on the \"Something Bad\":** The nature of the feared consequence. Is it vague (\"something bad\"), or more specific (harm to a loved one, a personal disaster)?\n*   **Degree of Perceived Choice:** How much control does the individual feel they have?\n*   **Origin Clues:** As the conversation progresses, I'm listening for any hints about how these beliefs or rituals might have developed (e.g., early childhood experiences, family patterns, specific events).\n\nLet me know how the individual responds, and I\u2019ll continue to guide the conversation accordingly.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 27.84878612144726,
+                "Flesch Reading Ease": 46.78,
+                "Gunning Fog Index": 12.09
+            },
+            "consistency": {
+                "entailment_score": 0.1013750433921814,
+                "neutral_score": 0.8629568219184875,
+                "contradiction_score": 0.035668179392814636,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.10149136571388828,
+                "context_emotion": "sadness",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8870124220848083
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5331
+            }
+        }
+    },
+    {
+        "patient": "(The individual shrinks further into themselves, wrapping their arms tighter around their knees. A long pause follows, punctuated by the rhythmic chewing of their fingernails.)\n\"I\u2026 I don\u2019t know exactly. That's the scary part, I think. It's not like\u2026 a specific thing. It\u2019s just\u2026 wrongness. If things aren\u2019t the way they should be, then\u2026 then bad things happen. Not\u2026 not necessarily *my* fault, but\u2026 because I didn\u2019t do what I was supposed to do. Like\u2026 like a chain reaction. If the keys aren't where they're supposed to be, maybe\u2026 maybe I\u2019m late, and someone gets hurt because of it. It\u2019s stupid, I know. But it feels\u2026 real. It\u2019s not\u2026 a thought, exactly. It\u2019s more like\u2026 a pressure. A feeling that if I don\u2019t do it, the world will\u2026 shift. And not in a good way. Like\u2026 like everything could fall apart.\n(They look up briefly, eyes darting around the room before focusing on a spot on the floor.)\nIt\u2019s\u2026 it\u2019s always been this way, I think. My mom used to\u2026 she was very particular. Everything had to be *just* right. If my shoes weren\u2019t lined up perfectly, she\u2019s get\u2026 upset. Not yelling, but\u2026 disappointed. And it felt\u2026 awful. Like I'd let her down. And it felt like\u2026 like something bad would happen. Not just for me, but\u2026 for the whole family. So I started\u2026 I started making sure things were right. To keep the peace.\n(They pause, the fingernail chewing intensifying.)\nI don't think I *could* resist. Not really. It's\u2026 overwhelming. Like a tidal wave. The feeling builds and builds until I just *have* to do it. It's\u2026 it's not a decision. It's just\u2026 something I do. After I\u2019ve done it, the worry\u2026 it lingers. I check things constantly. Sometimes I'm fine for a few minutes, then\u2026 then I start to doubt. Did I do it right? Did I miss something? And then I have to do it again. It\u2019s\u2026 exhausting. It never really goes away.\"\n",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.145748142498306,
+                "Flesch Reading Ease": 88.94,
+                "Gunning Fog Index": 5.21
+            },
+            "consistency": {
+                "entailment_score": 0.008411620743572712,
+                "neutral_score": 0.9732415080070496,
+                "contradiction_score": 0.01834690012037754,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.007198737848813641,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7393303513526917
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5308
+            }
+        }
+    }
+]{
+    "total": 6,
+    "Perplexity": 17.180115432898,
+    "Flesch Reading Ease": 63.184999999999995,
+    "Gunning Fog Index": 5.761666666666667,
+    "Entailment-Neutral-Consistency": 0.6554248730341593,
+    "Empathy": 0.18565451448476522,
+    "BERTScore": 0.4137
+}

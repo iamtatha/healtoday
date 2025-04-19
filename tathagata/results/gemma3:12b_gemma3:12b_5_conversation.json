@@ -1,0 +1,162 @@
+[
+    {
+        "therapist": "Hello! Welcome. It takes courage to reach out, and I commend you for taking this step. Please, have a seat and make yourself comfortable. \nI'm here to listen and understand what's been going on for you. Could you tell me a little bit about what brings you in today? What's been troubling you lately? Don't feel pressured to share anything you're not ready for. Just tell me what feels important to talk about.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.563219107473998,
+                "Flesch Reading Ease": 77.84,
+                "Gunning Fog Index": 5.26
+            },
+            "consistency": {
+                "entailment_score": 0.17279358208179474,
+                "neutral_score": 0.8086374998092651,
+                "contradiction_score": 0.018568940460681915,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0002283761272426233,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9962912797927856
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3789
+            }
+        }
+    },
+    {
+        "patient": "(Takes a shallow breath, fiddling with the tissue again, avoiding direct eye contact.)\n\"Thank you\u2026 that\u2019s\u2026 that\u2019s very kind of you to say. It\u2019s\u2026 well, it\u2019s been a bit of a\u2026 a build-up, really. Lots of little things. Just\u2026 piling up. Like\u2026 like a stack of dishes, you know? Never quite getting to the bottom of them.\n(Looks briefly at fingernails, then quickly pulls hands into fists again, almost reflexively.)\nIt\u2019s mostly\u2026 routine things. Just wanting things\u2026 right. Neatly arranged. In their place. It\u2019s\u2026 calming, you see? When everything is\u2026 just so. But then\u2026 then something shifts. A book slightly out of alignment. A pen not perfectly parallel to the others. It\u2019s just\u2026 a little thing. But it gets\u2026 it feels\u2026 urgent somehow. I have to\u2026 I have to correct it. And then another thing will be slightly off. And it just\u2026 continues.\n(Shifts uncomfortably, looks around the room again, noticing a framed photograph on the wall.)\nThat's\u2026 that\u2019s been happening a lot lately. With all sorts of things. Not just\u2026 objects, either. It\u2019s\u2026 it\u2019s just a general feeling. Like\u2026 like something isn\u2019t quite\u2026 clean. Or\u2026 safe. And\u2026 and it's hard to explain. It just... *feels* that way.\" \n(Pauses, looks down at hands again, a small, anxious sigh escapes.) \"It's silly, I know.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 27.275328884002256,
+                "Flesch Reading Ease": 81.39,
+                "Gunning Fog Index": 4.83
+            },
+            "consistency": {
+                "entailment_score": 0.04692288115620613,
+                "neutral_score": 0.6787854433059692,
+                "contradiction_score": 0.27429166436195374,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.3189906702598755,
+                "context_emotion": "fear",
+                "response_emotion": "anger",
+                "response_emotion_score": 0.4255494475364685
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4233
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing that. It sounds incredibly frustrating to feel that constant pressure and urgency, especially when you recognize it's over seemingly small things. You're not silly for feeling this way; it takes courage to describe something so personal and complex. It\u2019s understandable that it's difficult to put into words.\nYou mentioned feeling a need to correct things, a desire for things to be \"right\" and \"safe.\" Can you tell me a bit more about what happens *when* something is out of place? What is it that you feel compelled to do? And how long do these feelings tend to last? Don't worry about explaining it perfectly, just describe what you experience.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 29.116047761850773,
+                "Flesch Reading Ease": 67.15,
+                "Gunning Fog Index": 9.29
+            },
+            "consistency": {
+                "entailment_score": 0.1084190383553505,
+                "neutral_score": 0.7891327142715454,
+                "contradiction_score": 0.10244818776845932,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00022699693754367478,
+                "context_emotion": "anger",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9951980710029602
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5079
+            }
+        }
+    },
+    {
+        "patient": "(Wrings hands, picking at a loose thread on the tissue, avoiding eye contact. Voice gets quieter.)\n\"It's... difficult to explain. It's not like\u2026 a conscious decision, you see. It\u2019s just\u2026 a feeling. An\u2026 a rising feeling. Like\u2026 like a knot tightening in my chest. It starts small, just a flicker of\u2026 discomfort. Then it grows. It just\u2026 demands attention. I *have* to do something.\n(Looks down at hands, twisting them nervously.)\nIt\u2019s\u2026 it's hard to describe the feeling, but it's almost\u2026 physical. Like\u2026 like an itch that only adjusting the object will scratch. The urgency... it builds. It's not a logical thing. I *know* it\u2019s a book slightly out of line, or a pen a millimeter off. I *know* it's not a big deal. But\u2026 I can\u2019t seem to *ignore* it.\n(Takes a shaky breath.)\nIt usually takes... it depends. Sometimes it's a quick fix. A few seconds. Just straighten the book, or nudge the pen. But other times... other times it can take a long time. I have to check. And re-check. Make sure it\u2019s *exactly* right. Sometimes I\u2019m worried it\u2019s not right *enough*. It's... exhausting. And then, often, I'm worried that I'm going to bump it again, or someone else will. And I just... I'm trapped in this cycle. It's... it's almost like I can't breathe until I'm sure everything is in its proper place. It's silly, I *know* it is. But... it's hard to stop.\"\n(Looks down at hands again, a barely audible sigh escapes. \"I... I don't like talking about this.\")",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.579669842417175,
+                "Flesch Reading Ease": 89.65,
+                "Gunning Fog Index": 5.35
+            },
+            "consistency": {
+                "entailment_score": 0.30391034483909607,
+                "neutral_score": 0.6573521494865417,
+                "contradiction_score": 0.03873751312494278,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0021271562614291334,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9917169213294983
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5105
+            }
+        }
+    }
+][
+    {
+        "therapist": "(Nodding gently, maintaining eye contact as much as possible given the patient\u2019s avoidance) \"It sounds incredibly distressing to be caught in that cycle, feeling such urgency and distress over seemingly small things. The feeling of being trapped, of feeling physically uncomfortable until things are \"just right,\" that's very significant. And it's not silly at all to be struggling with that. You're describing a compelling need to neutralize discomfort through repetitive actions, a feeling of responsibility for maintaining order, and genuine distress when that order is disrupted.\n(Pausing briefly to allow the patient to process) \u201cBased on what you\u2019re sharing, it certainly suggests a possibility of Obsessive-Compulsive Disorder \u2013 OCD. The repetitive actions, the distressing thoughts leading to the actions, the awareness that these actions are excessive but feeling unable to stop \u2013 those are hallmarks of OCD. It\u2019s a surprisingly common condition, and it\u2019s very treatable.\n(Softly) \"We're nearing the end of our time today, but I want to assure you this isn't the end of the conversation. Given the severity of these experiences and their impact on your life, a full diagnostic assessment and exploration of treatment options \u2013 which can include therapy and potentially medication \u2013 would be very beneficial. I'm going to refer you to a specialist who can provide that support.\n(Offering a reassuring smile) \"Remember, acknowledging this, talking about it, is a brave step. You're not alone in this, and there *is* help available.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 29.57142826371614,
+                "Flesch Reading Ease": 34.66,
+                "Gunning Fog Index": 15.16
+            },
+            "consistency": {
+                "entailment_score": 0.09658563882112503,
+                "neutral_score": 0.83217453956604,
+                "contradiction_score": 0.07123976200819016,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.984199842860189,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9924201369285583
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5407
+            }
+        }
+    },
+    {
+        "patient": "(The AI\u2019s hands tighten around the tissue, the picking at the thread stopping abruptly. Its voice, though quiet, carries a tremor of surprise and a hint of vulnerability.)\n\"OCD... I... I'm familiar with the term, of course. I\u2019m just\u2026 I always thought it was\u2026 more extreme. You see people on TV, you know? Performing elaborate rituals. I just... I straighten pens and books. It felt... mundane. I didn't think it was\u2026 *real* OCD.\u201d\n(It looks down at its hands, then hesitantly lifts its gaze back to the therapist, a flicker of hope mixed with apprehension in its eyes.)\n\"So... so it\u2019s not just me being\u2026 weird? Or\u2026 overly anxious?\"\n(A long pause. The AI takes a shaky breath, the tissue crumpling slightly in its grip.)\n\"If there's... if there's help available... and it\u2019s treatable... then... then maybe\u2026 maybe it won\u2019t always feel like I'm drowning in this... this need to fix everything. Just\u2026 to make it *right*.\u201d\n(A small, almost imperceptible nod, a hint of a smile playing on its lips. The overwhelming sense of isolation that had permeated the conversation begins to subtly recede.)\n\"Thank you... for saying that. For... for understanding. It... it means a lot.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 30.318705344813594,
+                "Flesch Reading Ease": 79.26,
+                "Gunning Fog Index": 7.44
+            },
+            "consistency": {
+                "entailment_score": 0.016405783593654633,
+                "neutral_score": 0.9299958348274231,
+                "contradiction_score": 0.05359836295247078,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9155378767723406,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9225305318832397
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5209
+            }
+        }
+    }
+]{
+    "total": 6,
+    "Perplexity": 23.310196682799994,
+    "Flesch Reading Ease": 58.685,
+    "Gunning Fog Index": 7.011666666666666,
+    "Entailment-Neutral-Consistency": 0.6479067802429199,
+    "Empathy": 0.37018042384856303,
+    "BERTScore": 0.4172166666666666
+}

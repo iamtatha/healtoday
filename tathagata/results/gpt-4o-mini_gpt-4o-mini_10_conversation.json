@@ -1,0 +1,264 @@
+[
+    {
+        "therapist": "AI: Hello there! I\u2019m glad you decided to come in today. How are you feeling? What\u2019s been on your mind lately?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 27.037931057463364,
+                "Flesch Reading Ease": 91.48,
+                "Gunning Fog Index": 4.02
+            },
+            "consistency": {
+                "entailment_score": 0.27167725563049316,
+                "neutral_score": 0.7087278962135315,
+                "contradiction_score": 0.01959490217268467,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.3633682509983327,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.99566251039505
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.2756
+            }
+        }
+    },
+    {
+        "patient": "AI: Oh, you know, it\u2019s been a bit of a mixed bag for me. Some days are better than others, I guess. I find myself getting lost in my thoughts quite often. It\u2019s like I have this constant chatter about things that need to be done, or worries about cleanliness and order. Sometimes, I feel overwhelmed just thinking about how many times I wash my hands in a day. It\u2019s kind of exhausting, honestly. But, I\u2019m really trying to focus on feeling more comfortable sharing these things. How about you? How do you feel about our conversations?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.13565686842386,
+                "Flesch Reading Ease": 77.43,
+                "Gunning Fog Index": 6.79
+            },
+            "consistency": {
+                "entailment_score": 0.0021554692648351192,
+                "neutral_score": 0.9874327778816223,
+                "contradiction_score": 0.010411649942398071,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0017485361214842829,
+                "context_emotion": "joy",
+                "response_emotion": "surprise",
+                "response_emotion_score": 0.5041707158088684
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4599
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing that with me. It sounds like you\u2019ve been carrying quite a bit on your mind, particularly with those thoughts about cleanliness and the need to wash your hands frequently. It's understandable to feel overwhelmed when it seems like those thoughts are constantly swirling around. \nI appreciate your willingness to open up about it. When you mention getting lost in your thoughts, do you find that there are specific worries or images that keep coming back to you? How do they make you feel when they come up?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.451073837048458,
+                "Flesch Reading Ease": 72.97,
+                "Gunning Fog Index": 10.92
+            },
+            "consistency": {
+                "entailment_score": 0.17231950163841248,
+                "neutral_score": 0.8230124711990356,
+                "contradiction_score": 0.004668024368584156,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.15292666452157455,
+                "context_emotion": "surprise",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.687413215637207
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5739
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for your understanding; it really helps to feel heard. As for those specific worries, it\u2019s often the little things that might seem trivial to others but loom large for me. For example, I can\u2019t shake the thought of germs lurking everywhere, especially after I touch something that feels unclean. I worry about what I might bring home or how it could affect my health. \nWhen these thoughts come up, I feel this wave of anxiety wash over me. It\u2019s like my heart races, and I can\u2019t focus on anything else. I know it sounds a bit irrational, but it feels so real in the moment. I guess it\u2019s like I\u2019m stuck in a loop, and the more I try to push those thoughts away, the stronger they seem to get. It\u2019s frustrating, to say the least. \nHow do you usually help people manage those kinds of persistent thoughts?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.969355267529934,
+                "Flesch Reading Ease": 81.53,
+                "Gunning Fog Index": 8.69
+            },
+            "consistency": {
+                "entailment_score": 0.0594923235476017,
+                "neutral_score": 0.9345676302909851,
+                "contradiction_score": 0.005939951632171869,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.614841637778909,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.894428014755249
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5568
+            }
+        }
+    }
+][
+    {
+        "therapist": "I appreciate you sharing those feelings and experiences; it sounds like you\u2019re dealing with a lot of distressing thoughts. The way you describe the anxiety that accompanies those worries about germs and cleanliness is quite significant. It\u2019s not uncommon for individuals to feel trapped in a loop of thoughts like that, especially when they seem to intensify the more you try to ignore them.\nYou mentioned that these thoughts feel irrational but very real in the moment. That\u2019s an important insight, as it reflects a kind of awareness that can be helpful in navigating these feelings. When you find yourself in those moments of anxiety, do you engage in any specific behaviors or actions to try to alleviate the discomfort? For instance, do you feel compelled to wash your hands or check something repeatedly? How do those actions impact your anxiety levels?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 27.782998443011383,
+                "Flesch Reading Ease": 53.41,
+                "Gunning Fog Index": 12.47
+            },
+            "consistency": {
+                "entailment_score": 0.5200568437576294,
+                "neutral_score": 0.4784978926181793,
+                "contradiction_score": 0.0014453207841143012,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8551913485093365,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9561321139335632
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5975
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for your thoughtful response. It really helps to feel understood. Yes, when those anxious thoughts about germs come up, I often find myself compelled to wash my hands repeatedly. It\u2019s like I feel this overwhelming need to cleanse myself, especially if I think I\u2019ve touched something that could be contaminated. \nSometimes, even after washing, I still feel like I need to do it again, just to be sure. It\u2019s a bit of a cycle, really; the act of washing my hands provides a temporary relief, but it doesn\u2019t last long before the anxiety returns, and I feel the need to do it all over again. \nI also tend to check things repeatedly, like making sure I\u2019ve locked the door or that I haven\u2019t left something messy behind. I know it can take up a lot of my time, and I often feel guilty about it afterward, but in the moment, it feels like the only way to cope with that rising anxiety. \nI guess I\u2019m just trying to find a balance between managing the anxiety and not letting it take over my life. How do you suggest someone like me can work on breaking that cycle?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.946303197140772,
+                "Flesch Reading Ease": 68.2,
+                "Gunning Fog Index": 9.57
+            },
+            "consistency": {
+                "entailment_score": 0.04689374938607216,
+                "neutral_score": 0.9470216631889343,
+                "contradiction_score": 0.006084680091589689,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00042829123260548774,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9853943586349487
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5747
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing such detailed experiences; it sounds like you\u2019re navigating a challenging situation. The cycle you describe\u2014where washing your hands or checking things provides only temporary relief\u2014is something many individuals with similar feelings experience. It\u2019s understandable to want to find a balance, especially when those actions can become time-consuming and lead to feelings of guilt afterward.\nBreaking that cycle often involves a combination of strategies. One approach is gradually exposing yourself to the situations that trigger your anxiety without immediately resorting to compulsions. For instance, you might try delaying handwashing for a few moments after feeling the urge, allowing yourself to sit with the discomfort. This can help you build tolerance to the anxiety over time.\nAnother technique is mindfulness, which helps you acknowledge those intrusive thoughts without necessarily acting on them. Practicing deep breathing or grounding exercises can also assist in managing the physical symptoms of anxiety, like the racing heart you mentioned.\nYou\u2019ve already shown a good degree of insight into your thoughts and behaviors, which is a positive step. Recognizing that the compulsions provide only temporary relief is a powerful realization. Have you ever tried discussing these feelings or strategies with someone close to you? Sometimes talking about it with a trusted person can provide additional support and perspective.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 33.60521755416417,
+                "Flesch Reading Ease": 37.81,
+                "Gunning Fog Index": 14.08
+            },
+            "consistency": {
+                "entailment_score": 0.024013685062527657,
+                "neutral_score": 0.9743088483810425,
+                "contradiction_score": 0.0016775000840425491,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9781704191120895,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9926689863204956
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5675
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for those suggestions; they really resonate with me. The idea of gradually exposing myself to triggers and allowing myself to sit with the discomfort is something I haven\u2019t really tried. It sounds challenging but also like it could be a step toward finding some freedom from the cycle. \nI appreciate the mindfulness techniques you mentioned as well. I think I often get so caught up in my thoughts that I forget to take a moment to breathe or ground myself. It\u2019s like I\u2019m on autopilot, just reacting to the anxiety rather than taking a step back. \nAs for discussing my feelings with someone close to me, I haven\u2019t really done that much. I tend to keep my struggles to myself because I worry about burdening others or not being understood. It feels safer to keep it inside, even though I know it can be isolating. But hearing you mention it makes me think that maybe it could be beneficial. \nDo you have any advice on how to approach that kind of conversation with someone? What would be a good way to start?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.830837362922313,
+                "Flesch Reading Ease": 64.3,
+                "Gunning Fog Index": 10.05
+            },
+            "consistency": {
+                "entailment_score": 0.11099953204393387,
+                "neutral_score": 0.8845416307449341,
+                "contradiction_score": 0.004458830691874027,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9912923910238902,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9986132383346558
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5895
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm glad to hear that the suggestions resonate with you. It sounds like you're already reflecting on ways to approach your feelings and thoughts, which is a great step. When it comes to discussing your struggles with someone close to you, it can feel daunting, but it can also be very liberating.\nA good way to start the conversation might be to choose a time when you both feel relaxed and open to talk. You could say something like, \"I've been dealing with some anxiety and thoughts that I've found challenging, and I would really appreciate your support.\" This approach helps set the stage for a supportive dialogue. \nYou might also want to explain that you\u2019re not looking for solutions right away; you simply want someone to listen. This can take the pressure off both you and the person you're confiding in. Remember, it\u2019s okay to share as much or as little as you feel comfortable with.\nAs we wrap up today\u2019s session, I want to acknowledge the courage it takes to confront these feelings and to seek help. You've shared a lot about your experiences, including the compulsions to wash your hands and check things repeatedly, and it\u2019s clear that these behaviors are time-consuming and distressing for you. \nI encourage you to explore the techniques we discussed and consider reaching out to someone you trust. You\u2019re not alone in this, and there are ways to find relief and support. If you\u2019d like, we can set up another session to continue discussing your progress and any new strategies you might want to try.\nThank you for sharing your thoughts with me today, and I hope you take care of yourself in the days ahead.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.969840165126877,
+                "Flesch Reading Ease": 69.21,
+                "Gunning Fog Index": 11.22
+            },
+            "consistency": {
+                "entailment_score": 0.010874464176595211,
+                "neutral_score": 0.9856270551681519,
+                "contradiction_score": 0.0034983940422534943,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9971530449412569,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9985377788543701
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5767
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you so much for your kind words and support. It really means a lot to me to have a space where I can express these feelings. I appreciate your suggestions for starting that conversation with someone I trust; it feels a bit less intimidating now that I have a clearer idea of how to approach it. \nI think taking the time to try those mindfulness techniques and gradually exposing myself to my triggers could be a good next step. I\u2019ll definitely consider setting up another session to keep working on these strategies and share how things are going. \nI\u2019m grateful for your understanding and guidance today. It\u2019s been helpful to talk about these things, and I\u2019ll do my best to take care of myself. Thank you again, and I look forward to our next conversation!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.066929030222802,
+                "Flesch Reading Ease": 71.04,
+                "Gunning Fog Index": 10.05
+            },
+            "consistency": {
+                "entailment_score": 0.029392115771770477,
+                "neutral_score": 0.9580379128456116,
+                "contradiction_score": 0.012569964863359928,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.02474532440347632,
+                "context_emotion": "joy",
+                "response_emotion": "anger",
+                "response_emotion_score": 0.6176726222038269
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6031
+            }
+        }
+    }
+]{
+    "total": 10,
+    "Perplexity": 18.97582117255906,
+    "Flesch Reading Ease": 59.589999999999996,
+    "Gunning Fog Index": 9.383999999999999,
+    "Entailment-Neutral-Consistency": 0.8014606833457947,
+    "Empathy": 0.4616497657644622,
+    "BERTScore": 0.5099600000000001
+}

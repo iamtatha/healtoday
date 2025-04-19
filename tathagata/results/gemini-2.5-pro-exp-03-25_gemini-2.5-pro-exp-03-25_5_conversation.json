@@ -1,0 +1,162 @@
+[
+    {
+        "therapist": "**(Leaning forward slightly with a calm and welcoming expression, maintaining gentle eye contact but not staring intensely.)**\n\"Hello. Thank you for coming in today. I appreciate you being here.\"\n**(Pause, allowing space and silence, noticing the patient's tentative demeanor and fidgeting.)**\n\"Please, make yourself comfortable. There's no rush here.\"\n**(Another brief, comfortable pause.)**\n\"So... where would you like to begin? Sometimes it helps just to talk about what's been going on lately, however big or small it might seem.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 31.420196168507037,
+                "Flesch Reading Ease": 62.54,
+                "Gunning Fog Index": 9.09
+            },
+            "consistency": {
+                "entailment_score": 0.13703612983226776,
+                "neutral_score": 0.8414629697799683,
+                "contradiction_score": 0.02150098606944084,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0499772099256659,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.7457692623138428
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4108
+            }
+        }
+    },
+    {
+        "patient": "**(Shifts uncomfortably in the seat, perhaps fiddling with the edge of their sleeve or clasping/unclasping their hands. Avoids direct eye contact initially, maybe looking down or slightly past the therapist.)**\n\"Um... okay. Thanks.\"\n**(Takes a small, slightly shallow breath.)**\n\"Yeah, it's... I'm not really sure where the best place to start is. There's... well, there's kind of a lot going on, I guess. It all feels... a bit overwhelming.\"\n**(Glances up briefly, meeting the therapist's eyes for a second before looking away again.)**",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 24.486297610385776,
+                "Flesch Reading Ease": 69.38,
+                "Gunning Fog Index": 7.05
+            },
+            "consistency": {
+                "entailment_score": 0.09223499894142151,
+                "neutral_score": 0.7878086566925049,
+                "contradiction_score": 0.11995628476142883,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.06362532981642133,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7144594192504883
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6121
+            }
+        }
+    }
+][
+    {
+        "therapist": "**(Nods slowly, maintaining a calm and patient demeanor. Leans back slightly to create a sense of space.)**\n\"Okay. 'Overwhelming' sounds like a heavy feeling to carry. It's perfectly alright not to know exactly where to start. There's no right or wrong way to begin.\"\n**(Pause, giving the patient space to process.)**\n\"Sometimes, just describing a bit about how things have been lately can be helpful. Maybe... could you tell me a little about what a typical day looks like for you right now? Or perhaps what prompted you to make this appointment? Whichever feels easier to talk about. And again, no pressure at all.\"\n**(Waits patiently, maintaining a gentle, open expression.)**",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 31.988344713005777,
+                "Flesch Reading Ease": 70.5,
+                "Gunning Fog Index": 8.04
+            },
+            "consistency": {
+                "entailment_score": 0.42414218187332153,
+                "neutral_score": 0.35045886039733887,
+                "contradiction_score": 0.2253989279270172,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.6912234556864405,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.967477560043335
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5888
+            }
+        }
+    },
+    {
+        "patient": "**(Takes another slow breath, seeming to consider the options. Hands continue to fidget slightly in lap. Looks down at hands.)**\n\"Um... okay. A typical day...\"\n**(Pauses, thinking.)**\n\"Well... lately, it's... it's hard to get going in the morning. I wake up, but... just lying there feels... easier? Than getting up. Like there's this... weight.\"\n**(Looks up briefly, then down again.)**\n\"Eventually, I get up, do the necessary things... work, or... try to manage things at home. But it all feels... foggy? Like I'm just sort of wading through it. Tasks pile up. Things I know I *should* do... they just seem... too big.\"\n**(Voice is a bit quiet.)**\n\"By the evening... I'm just drained. Really tired. But then... sometimes it's hard to sleep properly anyway. My mind just... races. Or sometimes it's just... blank. Just... exhausted.\"\n**(Shrugs slightly.)**\n\"It's... yeah. That's... kind of how it's been. For a while now, I guess. Just... heavy. And overwhelming, like I said.\"\n**(Stops talking, looks uncertainly towards the therapist, as if unsure if that was helpful or enough.)**",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 25.395843619459722,
+                "Flesch Reading Ease": 81.8,
+                "Gunning Fog Index": 5.11
+            },
+            "consistency": {
+                "entailment_score": 0.5254608392715454,
+                "neutral_score": 0.44463294744491577,
+                "contradiction_score": 0.02990620955824852,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.001393528796834742,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9575530290603638
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6076
+            }
+        }
+    }
+][
+    {
+        "therapist": "**(Nods understandingly, maintaining a soft and empathetic gaze.)**\n\"Thank you for walking me through that. It sounds incredibly exhausting, carrying that feeling of heaviness and fog throughout the day, only to find it hard to rest properly at night. That sense of being drained, yet having a mind that races... that sounds really tough to manage.\"\n**(Pauses, allowing the patient to absorb the reflection.)**\n\"You mentioned your mind races sometimes when you're trying to sleep. That sounds uncomfortable. If you feel okay sharing, what kinds of things tend to run through your mind during those times? Or even just generally, when things feel overwhelming?\"\n**(Keeps tone gentle and inquisitive, not demanding.)**\n\"No need for specifics if you're not comfortable, just whatever you feel able to share about what that 'racing' feels like for you.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 41.26418868754347,
+                "Flesch Reading Ease": 68.57,
+                "Gunning Fog Index": 9.85
+            },
+            "consistency": {
+                "entailment_score": 0.23446863889694214,
+                "neutral_score": 0.6848757863044739,
+                "contradiction_score": 0.08065557479858398,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.004467838227147081,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9797435998916626
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6105
+            }
+        }
+    },
+    {
+        "patient": "**(Nods slightly, looking down at hands again. Takes a moment before answering.)**\n\"Yeah... um... it's... not usually about one specific, huge thing. It's more like... my brain just won't be quiet. It kind of... jumps around?\"\n**(Looks up for a fleeting second.)**\n\"Like... I'll suddenly remember an email I forgot to send, or... replay some conversation I had, wondering if I sounded okay, or if I offended someone. Or I'll start thinking about all the things I *should* be doing... at home, at work... all the things piling up.\"\n**(Fidgets slightly more.)**\n\"And then... sometimes it turns into... well, me kind of beating myself up about it. You know, like... 'Why can't you just get it together?' or 'You should be handling this better.' It's just... a lot of that kind of stuff. Worrying about things I did or didn't do, worrying about things that *might* happen... It just sort of... spins. It doesn't really feel helpful, just... noisy. And it makes it hard to... settle.\"\n**(Trails off, shrugging almost imperceptibly.)**\n\"It definitely feeds into that overwhelmed feeling.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 26.24792521505632,
+                "Flesch Reading Ease": 81.19,
+                "Gunning Fog Index": 5.31
+            },
+            "consistency": {
+                "entailment_score": 0.1340257078409195,
+                "neutral_score": 0.8295024633407593,
+                "contradiction_score": 0.03647179156541824,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.974516460321766,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9946647882461548
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5898
+            }
+        }
+    }
+]{
+    "total": 6,
+    "Perplexity": 24.897099974241844,
+    "Flesch Reading Ease": 61.906666666666666,
+    "Gunning Fog Index": 5.8933333333333335,
+    "Entailment-Neutral-Consistency": 0.5419649879137675,
+    "Empathy": 0.28920443547476826,
+    "BERTScore": 0.5014666666666666
+}

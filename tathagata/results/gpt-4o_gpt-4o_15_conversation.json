@@ -1,0 +1,366 @@
+[
+    {
+        "therapist": "Hello! Welcome. I'm glad you're here today. How have you been feeling lately? Are there any thoughts or concerns on your mind that you'd like to discuss?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.935027201308824,
+                "Flesch Reading Ease": 87.72,
+                "Gunning Fog Index": 3.6
+            },
+            "consistency": {
+                "entailment_score": 0.2620047628879547,
+                "neutral_score": 0.7184979915618896,
+                "contradiction_score": 0.019497208297252655,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.35978541454269575,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9858452081680298
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.337
+            }
+        }
+    },
+    {
+        "patient": "Hi there. Thanks for having me. I've been... well, a bit all over the place, to be honest. There are definitely some thoughts and habits that I've been trying to manage better. It's a little hard to talk about, but I'm hoping this will help me sort through some of it. How about you?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.267435844370933,
+                "Flesch Reading Ease": 85.89,
+                "Gunning Fog Index": 5.06
+            },
+            "consistency": {
+                "entailment_score": 0.001591906533576548,
+                "neutral_score": 0.9973656535148621,
+                "contradiction_score": 0.0010424369247630239,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9616700117490495,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9754776954650879
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5371
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm here to help, and I'm glad you're reaching out to discuss these things. It sounds like there's a lot going on in your mind. Can you tell me more about these thoughts and habits that you're trying to manage? What are they like, and how do they affect your daily life?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 10.40800841871343,
+                "Flesch Reading Ease": 92.12,
+                "Gunning Fog Index": 5.2
+            },
+            "consistency": {
+                "entailment_score": 0.18153133988380432,
+                "neutral_score": 0.8158435821533203,
+                "contradiction_score": 0.0026251396629959345,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9479127961583345,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9717421531677246
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5419
+            }
+        }
+    },
+    {
+        "patient": "Well, it's a bit challenging to put into words, but I'll try. I find myself thinking a lot about cleanliness and germs. It's like this constant loop in my mind that I can\u2019t quite switch off. For example, I wash my hands many times throughout the day, even when I know they're clean. It's particularly tough after touching things like door knobs. I can't help but feel like I need to wash again, just to be sure.\nAnd then, there's this anxiety about things being misplaced. If something isn't where it should be, I feel compelled to fix it immediately, and it can take up a lot of time. It's like my mind can't rest until everything is in its right place.\nI also have this habit of biting my fingernails, which I'm not particularly proud of. It\u2019s something I do when I'm anxious, and it just adds to my stress because I know it contradicts my need for cleanliness.\nIt's difficult to keep all these feelings and habits in check, and sometimes it feels overwhelming. But I'm hoping that by talking about it, I can start finding ways to manage it better.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.083350169952446,
+                "Flesch Reading Ease": 81.83,
+                "Gunning Fog Index": 7.99
+            },
+            "consistency": {
+                "entailment_score": 0.002395143499597907,
+                "neutral_score": 0.9964876174926758,
+                "contradiction_score": 0.001117203151807189,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.7951543710502165,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.81827712059021
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.504
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing that with me. It sounds like you're dealing with a lot of persistent and challenging thoughts and behaviors. It's not uncommon for concerns about cleanliness and organization to take up a significant amount of mental space and time. The feelings you're describing, such as the need to wash your hands repeatedly or ensure everything is in its correct place, can certainly be overwhelming. These habits, like nail-biting, especially when they seem contradictory to your other concerns, can add to the stress.\nI'm here to help you explore these experiences further. Can you tell me more about when these habits and thoughts started? Have there been times when they felt more or less intense? Understanding their history and any patterns might give us some insight into how we can work towards managing them effectively.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 23.536926493371244,
+                "Flesch Reading Ease": 64.51,
+                "Gunning Fog Index": 10.75
+            },
+            "consistency": {
+                "entailment_score": 0.0035665142349898815,
+                "neutral_score": 0.9950256943702698,
+                "contradiction_score": 0.0014076835941523314,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8008734092151997,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9787312746047974
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5655
+            }
+        }
+    },
+    {
+        "patient": "Thank you for your understanding and patience. It's a bit daunting to think about when all this started, but I suppose these habits have been with me for quite some time. I remember being more aware of them during my teenage years, but it\u2019s possible they were present even before then, just not as intense.\nThere are definitely times when these thoughts and habits feel more intense. Stressful situations or changes in my routine seem to amplify everything. For instance, if I'm under pressure at work or dealing with personal issues, I notice that I wash my hands more frequently and become even more anxious about things being out of place. Conversely, during periods when life feels more stable, the intensity seems to lessen a bit, although the thoughts never really go away completely.\nI think part of me is trying to find control in these habits, especially when other parts of my life feel unpredictable. It's like a coping mechanism, even though I'm aware it can be counterproductive at times. I'm hoping to find healthier ways to manage these feelings and gain a better understanding of why they persist.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 20.718565410930008,
+                "Flesch Reading Ease": 60.65,
+                "Gunning Fog Index": 10.76
+            },
+            "consistency": {
+                "entailment_score": 0.0025173446629196405,
+                "neutral_score": 0.9958475232124329,
+                "contradiction_score": 0.0016351641388610005,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.757163881078327,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7736177444458008
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5703
+            }
+        }
+    }
+][
+    {
+        "therapist": "It sounds like you've been living with these thoughts and habits for quite some time, and it's understandable how they can become more intense during stressful periods. It's not uncommon for people to seek control in certain areas of their lives when they feel other parts are unpredictable. The fact that you recognize this pattern is a great step toward understanding and managing it.\nIt's interesting that you mention these habits becoming more noticeable during your teenage years. Adolescence can be a time of significant change and stress, which might have contributed to these behaviors becoming more pronounced. The idea of these habits serving as a coping mechanism makes sense, especially if they provide a temporary sense of relief or control.\nLet's explore some strategies together that might help you manage these feelings more effectively. Have you tried any techniques in the past that have been helpful, or are there specific areas you'd like to focus on in finding healthier coping mechanisms?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.962848703242386,
+                "Flesch Reading Ease": 50.87,
+                "Gunning Fog Index": 13.31
+            },
+            "consistency": {
+                "entailment_score": 0.4352336525917053,
+                "neutral_score": 0.5634874105453491,
+                "contradiction_score": 0.0012789687607437372,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.061735579645130656,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8751533031463623
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6123
+            }
+        }
+    },
+    {
+        "patient": "I appreciate your insights and understanding. I have tried a few things here and there, like deep breathing exercises and mindfulness, to help calm my mind when I feel overwhelmed. There have been times when they\u2019ve been somewhat helpful, bringing a bit of relief, but it's challenging to maintain the practice consistently, especially when things get really intense.\nI think I\u2019d like to focus more on finding ways to break the cycle of compulsive hand washing and nail biting, as they seem to be the most disruptive to my daily life. Also, any strategies to manage the anxiety around organization and misplaced items would be really beneficial. I know it might take time, but I\u2019m open to exploring different techniques and finding what works best for me. Your guidance on this journey would be invaluable.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 26.058643362229063,
+                "Flesch Reading Ease": 60.35,
+                "Gunning Fog Index": 12.46
+            },
+            "consistency": {
+                "entailment_score": 0.005965888500213623,
+                "neutral_score": 0.9932026863098145,
+                "contradiction_score": 0.0008313425933010876,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.7794628828237222,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8906586766242981
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.56
+            }
+        }
+    }
+][
+    {
+        "therapist": "It's great to hear that you've already tried techniques like deep breathing and mindfulness. These practices can be quite effective, although, as you've noted, consistency can be a challenge, especially during more intense periods. Let's work on building a more structured approach to help you manage these habits and anxiety.\nTo address the compulsive hand washing, one strategy we might consider is gradual exposure and response prevention (ERP). This involves gradually exposing yourself to situations that trigger the urge to wash your hands, while resisting the compulsion to do so. Over time, this can help reduce the anxiety associated with these triggers and decrease the frequency of the compulsive behavior.\nFor nail biting, we could explore techniques such as keeping your hands busy with a stress ball or fidget toy, or applying a bitter-tasting nail polish designed to discourage nail biting. Sometimes, identifying the triggers for nail biting, like stress or boredom, can help in finding alternative coping strategies.\nRegarding organization and misplaced items, cognitive-behavioral techniques might be useful. These can involve challenging the thoughts that drive the anxiety around these issues, and practicing acceptance of minor imperfections or disarray. We can also create a structured plan for organizing spaces that allows for some flexibility, reducing the need for everything to be perfectly in place all the time.\nIt's important to approach these changes gradually and with patience. Finding the right combination of techniques that work for you is key, and I'm here to support you every step of the way. How does that sound to you?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 24.943696887137484,
+                "Flesch Reading Ease": 44.34,
+                "Gunning Fog Index": 13.59
+            },
+            "consistency": {
+                "entailment_score": 0.09655267745256424,
+                "neutral_score": 0.9021719694137573,
+                "contradiction_score": 0.00127531832549721,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.008688111203442539,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9160743355751038
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5923
+            }
+        }
+    },
+    {
+        "patient": "That sounds really promising, and I appreciate the thoughtful approach. The idea of gradually exposing myself to triggers while resisting the compulsion is a bit daunting, but I can see how it might help in the long run. I like the suggestion of using something like a stress ball or fidget toy to keep my hands busy. It feels like it could be a practical way to handle the nail-biting.\nAs for the cognitive-behavioral techniques, I think challenging my thoughts and practicing acceptance could be quite beneficial. It would be nice to find some peace with things not always being perfectly in place.\nI know these changes won't happen overnight, but having a structured plan and your support makes me feel more hopeful. I'm ready to take these steps and see where it leads. Thank you for your guidance.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 26.02232343806632,
+                "Flesch Reading Ease": 72.76,
+                "Gunning Fog Index": 10.48
+            },
+            "consistency": {
+                "entailment_score": 0.161946102976799,
+                "neutral_score": 0.8292052149772644,
+                "contradiction_score": 0.00884868111461401,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9147826093103468,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9985899329185486
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5857
+            }
+        }
+    }
+][
+    {
+        "therapist": "You're very welcome, and I'm glad to hear that you're feeling hopeful about taking these steps. It's completely normal to feel a bit apprehensive about trying new strategies, especially when it involves facing triggers, but remember that we're approaching this gradually, and you\u2019re not alone in this journey.\nStarting with small, manageable steps can make the process feel less overwhelming. For instance, you might begin with a less anxiety-provoking trigger for hand washing, and slowly work your way up to more challenging situations as you feel more comfortable. The same goes for the other techniques; it's about finding a pace that feels right for you.\nFor the cognitive-behavioral approach, we can start by identifying specific thoughts that arise when you feel the need to organize or fix things. Then, we can work together on challenging those thoughts and practicing acceptance in small, realistic ways.\nHaving tools like a stress ball or fidget toy can offer immediate, practical help, and over time, these small changes can add up to significant improvements.\nRemember, progress might be gradual, but each step forward is an achievement. I'm here to support you and provide guidance as we explore what works best for you. If you ever find yourself feeling stuck or unsure, don't hesitate to reach out. How do you feel about starting this week with some of these steps?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 21.599166459792546,
+                "Flesch Reading Ease": 60.85,
+                "Gunning Fog Index": 12.5
+            },
+            "consistency": {
+                "entailment_score": 0.28483960032463074,
+                "neutral_score": 0.7120194435119629,
+                "contradiction_score": 0.0031409417279064655,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9875076736933011,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9889020919799805
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5812
+            }
+        }
+    },
+    {
+        "patient": "I'm feeling a bit apprehensive, but also optimistic about starting with these steps. It sounds like a manageable approach, and I appreciate the idea of beginning with less anxiety-provoking triggers. It makes the process feel more approachable.\nI think focusing on one small step at a time will help me feel less overwhelmed. Starting with identifying specific thoughts around organization and finding ways to challenge them seems like a good starting point. I\u2019ll also give the stress ball a try and see how it feels to have something to keep my hands occupied.\nThank you for your reassurance and support. I\u2019m ready to give this a try and see how it goes. I\u2019ll keep you updated on my progress and reach out if I need further guidance. Let\u2019s start this journey and see where it leads.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.190509292214593,
+                "Flesch Reading Ease": 66.13,
+                "Gunning Fog Index": 9.85
+            },
+            "consistency": {
+                "entailment_score": 0.003452346893027425,
+                "neutral_score": 0.995222270488739,
+                "contradiction_score": 0.0013254780787974596,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00029896269012730237,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9967197775840759
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6095
+            }
+        }
+    }
+][
+    {
+        "therapist": "It sounds like you have a solid plan, and I'm really pleased to hear your optimism and readiness to take these steps. Starting with small, manageable actions is a great way to build momentum and make the process feel more approachable. Remember, each step is progress, and it's important to celebrate those achievements along the way.\nAs we wrap up our session today, I want to emphasize how valuable it is to keep track of your experiences and insights as you try these new strategies. This can help us refine our approach in future sessions. Feel free to jot down any thoughts or challenges you encounter, as well as any successes you experience, no matter how small they may seem.\nI appreciate your willingness to keep me updated on your progress. It\u2019s important to know that support is always available whenever you need it. I'm looking forward to hearing how things go for you and continuing this journey together.\nThank you for sharing your experiences with me today. Take care, and I'll be here whenever you're ready to continue.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.388920821521515,
+                "Flesch Reading Ease": 63.39,
+                "Gunning Fog Index": 10.99
+            },
+            "consistency": {
+                "entailment_score": 0.23030345141887665,
+                "neutral_score": 0.7647983431816101,
+                "contradiction_score": 0.004898145794868469,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00016043001417927454,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.998468816280365
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.618
+            }
+        }
+    },
+    {
+        "patient": "Thank you for your encouragement and guidance. I feel more at ease knowing there's a structured plan in place and that I have your support. I\u2019ll make sure to keep track of my experiences and insights as I try these new strategies. Writing things down might also help me process my thoughts better.\nI appreciate that you're here to support me, and it\u2019s comforting to know I can reach out whenever I need guidance. I\u2019ll take things one step at a time and keep you updated on how it goes. Thank you for listening and for helping me feel more hopeful about managing these challenges.\nTake care, and I\u2019m looking forward to our next session.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.149072774133675,
+                "Flesch Reading Ease": 73.78,
+                "Gunning Fog Index": 8.89
+            },
+            "consistency": {
+                "entailment_score": 0.49246376752853394,
+                "neutral_score": 0.5061697959899902,
+                "contradiction_score": 0.0013663977151736617,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9970520407771843,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.998581051826477
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6665
+            }
+        }
+    }
+]{
+    "total": 14,
+    "Perplexity": 18.452104862548257,
+    "Flesch Reading Ease": 62.676428571428566,
+    "Gunning Fog Index": 9.41642857142857,
+    "Entailment-Neutral-Consistency": 0.7904890860830035,
+    "Empathy": 0.5723187685291828,
+    "BERTScore": 0.5388785714285714
+}

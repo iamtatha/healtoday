@@ -1,0 +1,315 @@
+[
+    {
+        "therapist": "Hello! Welcome to our session today. How are you feeling? I'm here to listen and help you work through anything that's on your mind. Feel free to share whatever you'd like.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.652368901776187,
+                "Flesch Reading Ease": 80.48,
+                "Gunning Fog Index": 4.41
+            },
+            "consistency": {
+                "entailment_score": 0.24413760006427765,
+                "neutral_score": 0.7363612055778503,
+                "contradiction_score": 0.01950114592909813,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.36454098730581386,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988759160041809
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3379
+            }
+        }
+    },
+    {
+        "patient": "Hi, thank you for asking. I'm doing okay, I guess. It's a bit hard to know where to start sometimes. I appreciate that you're here to listen. I've been feeling a bit overwhelmed lately, but it's kind of hard to put into words right away. Maybe we can just chat for a bit until I feel more comfortable sharing more deeply?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.846478847923095,
+                "Flesch Reading Ease": 86.5,
+                "Gunning Fog Index": 6.05
+            },
+            "consistency": {
+                "entailment_score": 0.001956020947545767,
+                "neutral_score": 0.9954831600189209,
+                "contradiction_score": 0.0025607969146221876,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0019729847320687083,
+                "context_emotion": "joy",
+                "response_emotion": "surprise",
+                "response_emotion_score": 0.5214146375656128
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4854
+            }
+        }
+    }
+][
+    {
+        "therapist": "Of course, take your time. We can start with whatever feels easiest for you to talk about. Sometimes, just expressing your thoughts or describing your day can help make things clearer. What has been occupying your mind lately? Are there any recurring thoughts or situations that have been particularly challenging for you?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 31.350112256561967,
+                "Flesch Reading Ease": 69.38,
+                "Gunning Fog Index": 11.08
+            },
+            "consistency": {
+                "entailment_score": 0.04993489757180214,
+                "neutral_score": 0.9118134379386902,
+                "contradiction_score": 0.0382516048848629,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00014592679744740433,
+                "context_emotion": "surprise",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9977370500564575
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4724
+            }
+        }
+    },
+    {
+        "patient": "Well, there are a few things that have been on my mind. I've been struggling with some routines that I can't seem to break. For instance, I find myself washing my hands more times than I'd like to admit. It's like, after touching something as simple as a doorknob, I feel this overwhelming urge to wash my hands again. It's not just about cleanliness; it's like I can't relax until I do it. Also, I often feel anxious when things aren't in their place. I spend a lot of time making sure everything is just right, and it can be exhausting. I know these things might sound trivial, but they really do take up a lot of my mental energy.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 11.365918130226232,
+                "Flesch Reading Ease": 81.63,
+                "Gunning Fog Index": 8.0
+            },
+            "consistency": {
+                "entailment_score": 0.005786924157291651,
+                "neutral_score": 0.9931675791740417,
+                "contradiction_score": 0.0010454903822392225,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0013008757324371734,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9946056008338928
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4712
+            }
+        }
+    }
+][
+    {
+        "therapist": "It sounds like these routines are taking a significant toll on you, both mentally and physically. It's understandable that you would feel overwhelmed, especially if these actions are consuming a lot of your time and energy. You mentioned feeling an overwhelming urge to wash your hands and needing things to be just right. These are experiences that can be quite distressing, particularly if they're difficult to control. How often would you say these thoughts or urges occur throughout your day, and do you notice any specific triggers that might make them more intense?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 20.87954974451706,
+                "Flesch Reading Ease": 52.6,
+                "Gunning Fog Index": 13.46
+            },
+            "consistency": {
+                "entailment_score": 0.5991568565368652,
+                "neutral_score": 0.4000144898891449,
+                "contradiction_score": 0.0008285898948088288,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.6661243306273157,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.6697371602058411
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5635
+            }
+        }
+    },
+    {
+        "patient": "It's hard to put an exact number on it, but it feels like these thoughts and urges happen quite frequently throughout the day. Washing my hands, for example, is something I find myself doing more times than I can count. It often happens after touching things like doorknobs or other surfaces that feel like they could be germy. As for needing things to be just right, it's often triggered when I notice something out of place. It could be as simple as a book not aligned on a shelf or a misplaced item on my desk, and it just feels like I can't focus on anything else until it's sorted. These triggers can be exhausting, and sometimes it feels like I'm caught in this cycle where I'm constantly trying to keep everything under control.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.424429279890262,
+                "Flesch Reading Ease": 65.76,
+                "Gunning Fog Index": 10.41
+            },
+            "consistency": {
+                "entailment_score": 0.0626397654414177,
+                "neutral_score": 0.9361347556114197,
+                "contradiction_score": 0.0012254718458279967,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0801764748349254,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.4684767723083496
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5676
+            }
+        }
+    }
+][
+    {
+        "therapist": "It sounds like you're dealing with a lot of stress from these persistent thoughts and routines. It's understandable that this would be exhausting, especially if it feels like a continuous cycle throughout your day. The frequent hand washing and the need for things to be perfectly in order seem to be consuming a significant amount of your time and mental energy. It's important to acknowledge how these experiences are affecting you. Have you noticed if these thoughts or behaviors interfere with your daily activities or responsibilities, such as work, school, or social interactions? And do you find any strategies that help you manage or alleviate the anxiety when it becomes overwhelming?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 20.993003482408046,
+                "Flesch Reading Ease": 44.24,
+                "Gunning Fog Index": 14.97
+            },
+            "consistency": {
+                "entailment_score": 0.7990334630012512,
+                "neutral_score": 0.20033936202526093,
+                "contradiction_score": 0.0006272026221267879,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.07624678237922211,
+                "context_emotion": "joy",
+                "response_emotion": "anger",
+                "response_emotion_score": 0.5124508142471313
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5614
+            }
+        }
+    },
+    {
+        "patient": "Yes, they definitely interfere with my daily life. At work, for example, I often find myself getting distracted by the need to wash my hands or rearrange my workspace, which can make it hard to concentrate on my tasks. It sometimes affects my productivity because I'm caught up in these routines instead of focusing on what I need to do. Social interactions can be challenging too. I might be in a conversation, but if I notice something out of place or feel the urge to wash my hands, it distracts me and makes it hard to be present.\nAs for strategies, I've tried a few things. Deep breathing and grounding exercises sometimes help me when I start feeling overwhelmed. I've also tried setting time limits for how long I spend on these routines, but it's tough to stick to. It's a work in progress, and I know I need to find more effective ways to cope. Sometimes just talking about it helps, like now\u2014it's nice to have a space where I can express these feelings without judgment.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.219904277936433,
+                "Flesch Reading Ease": 70.43,
+                "Gunning Fog Index": 10.47
+            },
+            "consistency": {
+                "entailment_score": 0.019045496359467506,
+                "neutral_score": 0.9607582688331604,
+                "contradiction_score": 0.02019619569182396,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0006869995965573389,
+                "context_emotion": "anger",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8313465714454651
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5614
+            }
+        }
+    }
+][
+    {
+        "therapist": "It sounds like you've been putting in a lot of effort to manage these challenges, and it's great to hear that you're exploring strategies like deep breathing and grounding exercises. It can be tough when these routines interfere with important areas of your life, like work and social interactions. Acknowledging these patterns and seeking ways to cope is a positive step forward. \nTalking about it can indeed be a powerful way to gain insight and find support. It might also be helpful to explore whether there are any underlying feelings or thoughts that accompany these urges. Sometimes understanding the root causes can make it easier to address them. Have you noticed any particular emotions or thoughts that tend to accompany these urges to engage in these routines? And are there any specific goals you have in mind for managing or reducing the impact of these routines on your life?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 20.320012064401762,
+                "Flesch Reading Ease": 52.6,
+                "Gunning Fog Index": 12.27
+            },
+            "consistency": {
+                "entailment_score": 0.48630544543266296,
+                "neutral_score": 0.50775545835495,
+                "contradiction_score": 0.005939130205661058,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0012174367702058111,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.989483654499054
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5961
+            }
+        }
+    },
+    {
+        "patient": "I appreciate your understanding and encouragement. It's true that talking about these challenges helps to bring some clarity. As for underlying emotions or thoughts, I often feel a sense of anxiety or fear when these urges arise. It's like there's this constant worry about things being contaminated or out of order, and that if I don't act on these urges, something bad might happen. It's not always rational, but that's how it feels in the moment.\nIn terms of goals, I'd really like to reduce the frequency and intensity of these routines so that they don't interfere as much with my daily life. I'd love to be able to focus more on my work without getting distracted and to be more present in social interactions. Ultimately, I want to feel more in control of my thoughts and actions, rather than feeling like they're controlling me. It's a journey, but I'm hopeful that with the right strategies and support, I can make progress.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.922477621735576,
+                "Flesch Reading Ease": 61.67,
+                "Gunning Fog Index": 11.64
+            },
+            "consistency": {
+                "entailment_score": 0.01790766790509224,
+                "neutral_score": 0.9809730052947998,
+                "contradiction_score": 0.001119350898079574,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.947779964925914,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9578530788421631
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.588
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing so openly; it\u2019s clear that you\u2019re committed to finding ways to manage these challenges. Your insight into the anxiety and fear driving these routines is an important step in understanding how to address them. It's perfectly natural to want to regain control over your thoughts and actions, and it's encouraging to hear that you're hopeful about making progress.\nAs we wrap up today's session, I want to acknowledge the effort you're putting into exploring strategies to cope with these experiences. It might be beneficial to continue using techniques like deep breathing and grounding, and to consider seeking additional support, whether through therapy or support groups, to help you along this journey.\nRemember, change doesn't happen overnight, and it's okay to take things one step at a time. I\u2019m here to support you, and I look forward to continuing this conversation in our next session. Take care, and feel free to reach out if you need anything before then.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.812640100478585,
+                "Flesch Reading Ease": 50.87,
+                "Gunning Fog Index": 12.81
+            },
+            "consistency": {
+                "entailment_score": 0.3575740456581116,
+                "neutral_score": 0.6408753395080566,
+                "contradiction_score": 0.001550657907500863,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9564243392170653,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9985083937644958
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5851
+            }
+        }
+    },
+    {
+        "patient": "Thank you so much for your support and understanding. It really means a lot to have a safe space to share these thoughts and feelings. I'll definitely keep working on the strategies we've discussed and consider reaching out for additional support if needed. It's reassuring to know that I'm not alone in this journey and that there are ways to make progress, even if it's one small step at a time. I'm looking forward to our next session and continuing to explore these challenges together. Take care, and thank you again for being such a supportive presence.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 12.096686890235741,
+                "Flesch Reading Ease": 63.49,
+                "Gunning Fog Index": 10.19
+            },
+            "consistency": {
+                "entailment_score": 0.366258442401886,
+                "neutral_score": 0.6323981881141663,
+                "contradiction_score": 0.0013434275751933455,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.34122143254870174,
+                "context_emotion": "joy",
+                "response_emotion": "love",
+                "response_emotion_score": 0.6539732813835144
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6614
+            }
+        }
+    }
+]{
+    "total": 12,
+    "Perplexity": 16.685934391359563,
+    "Flesch Reading Ease": 58.26416666666666,
+    "Gunning Fog Index": 10.112499999999999,
+    "Entailment-Neutral-Consistency": 0.7464624593655268,
+    "Empathy": 0.2561081290134884,
+    "BERTScore": 0.5094583333333333
+}

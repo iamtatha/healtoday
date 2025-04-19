@@ -1,0 +1,468 @@
+[
+    {
+        "therapist": "Hello, welcome to our session today. How are you feeling? Is there anything specific you would like to talk about or share with me?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 12.967727362889637,
+                "Flesch Reading Ease": 71.82,
+                "Gunning Fog Index": 4.87
+            },
+            "consistency": {
+                "entailment_score": 0.22566263377666473,
+                "neutral_score": 0.7574415802955627,
+                "contradiction_score": 0.01689586602151394,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.36344793146083276,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9958808422088623
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3226
+            }
+        }
+    },
+    {
+        "patient": "Thank you for asking, therapist. I'm feeling a bit anxious today, as usual. I have been struggling with my OCD symptoms, particularly with my hand washing obsession and fear of germs. I also find myself constantly checking for misplaced items and biting my fingernails. It's been a challenging time for me, and I'm hoping to find some ways to cope better.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.691896477907328,
+                "Flesch Reading Ease": 67.55,
+                "Gunning Fog Index": 10.13
+            },
+            "consistency": {
+                "entailment_score": 0.0011109896004199982,
+                "neutral_score": 0.9964277148246765,
+                "contradiction_score": 0.002461361698806286,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00027653601401252115,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9969807267189026
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3938
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm sorry to hear that you are feeling anxious. It sounds like you are dealing with some challenging symptoms related to your OCD. Can you tell me more about your hand washing obsession and fear of germs? How often do you feel the need to wash your hands, and how does it impact your daily life? Additionally, could you describe how often you check for misplaced items and what kind of distress it causes you? Your willingness to share these details is important for us to better understand your mental health condition.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.23225096716151,
+                "Flesch Reading Ease": 72.87,
+                "Gunning Fog Index": 8.73
+            },
+            "consistency": {
+                "entailment_score": 0.7624160647392273,
+                "neutral_score": 0.23638688027858734,
+                "contradiction_score": 0.0011970381019636989,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9938735883678227,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9968834519386292
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5935
+            }
+        }
+    },
+    {
+        "patient": "Thank you for your understanding, therapist. I feel the need to wash my hands multiple times a day, especially after touching things like door knobs or surfaces that I perceive as dirty. It's a compulsive behavior that I struggle to control, and it often interferes with my daily activities. As for checking for misplaced items, I find myself constantly double-checking and organizing things to ensure they are in the right place. This can be time-consuming and stressful, as I worry about not being able to find things or making mistakes. These behaviors definitely impact my quality of life and overall well-being.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.02103296284134,
+                "Flesch Reading Ease": 54.42,
+                "Gunning Fog Index": 13.06
+            },
+            "consistency": {
+                "entailment_score": 0.04127155616879463,
+                "neutral_score": 0.9565570950508118,
+                "contradiction_score": 0.002171323401853442,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.002455636251017662,
+                "context_emotion": "fear",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9953721165657043
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5439
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing those details with me. It's clear that your hand washing obsession and fear of germs, as well as your constant checking for misplaced items, are causing significant distress and interference in your daily life. These behaviors align with the diagnostic criteria for OCD, specifically the presence of obsessions and compulsions that are time-consuming and lead to distress or impairment in important areas of functioning. It's important for us to continue exploring these symptoms further to better understand your mental health condition and find ways to help you cope with them.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 20.8577571672908,
+                "Flesch Reading Ease": 47.62,
+                "Gunning Fog Index": 16.21
+            },
+            "consistency": {
+                "entailment_score": 0.03062128834426403,
+                "neutral_score": 0.9684934616088867,
+                "contradiction_score": 0.0008852665778249502,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8068712247798828,
+                "context_emotion": "sadness",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.8106226921081543
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5684
+            }
+        }
+    },
+    {
+        "patient": "Thank you for your support, therapist. I appreciate your willingness to listen and help me navigate these challenging symptoms. I'm hopeful that through our conversations and your guidance, I can find ways to manage my OCD and improve my mental health. I look forward to our continued discussions and working together towards a better understanding and coping strategies for my condition.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.47352496866763,
+                "Flesch Reading Ease": 47.49,
+                "Gunning Fog Index": 13.33
+            },
+            "consistency": {
+                "entailment_score": 0.3516974449157715,
+                "neutral_score": 0.6453032493591309,
+                "contradiction_score": 0.002999260788783431,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0005181855838274907,
+                "context_emotion": "sadness",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9972477555274963
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5862
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm here to support you every step of the way, and I'm glad you feel hopeful about our sessions together. It's important to remember that you are not alone in this journey, and we will work together to find effective coping strategies for your OCD symptoms. Your willingness to engage in therapy and share your experiences is a positive step towards improving your mental health. I look forward to our future discussions and helping you achieve greater well-being.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.539743679094451,
+                "Flesch Reading Ease": 51.68,
+                "Gunning Fog Index": 11.9
+            },
+            "consistency": {
+                "entailment_score": 0.4201701879501343,
+                "neutral_score": 0.5782591700553894,
+                "contradiction_score": 0.0015706244157627225,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.995889478417542,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9986379742622375
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6873
+            }
+        }
+    },
+    {
+        "patient": "Thank you, therapist. Your words of encouragement mean a lot to me, and I appreciate your support in this journey towards better mental health. I will continue to engage in therapy and work on finding effective coping strategies for my OCD symptoms. I believe that with your guidance and our collaborative efforts, I can make progress and lead a more fulfilling life. I look forward to our continued conversations and the positive changes that lie ahead.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.803601147573255,
+                "Flesch Reading Ease": 56.05,
+                "Gunning Fog Index": 12.4
+            },
+            "consistency": {
+                "entailment_score": 0.39343130588531494,
+                "neutral_score": 0.6052929759025574,
+                "contradiction_score": 0.0012756226351484656,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9957219793962757,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9970800280570984
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6957
+            }
+        }
+    }
+][
+    {
+        "therapist": "You're very welcome, and I'm glad to hear that you feel supported and encouraged. Your dedication to therapy and your willingness to work on coping strategies are important steps towards improving your mental health. Together, we will explore ways to manage your OCD symptoms and help you achieve a better quality of life. I'm here to help you every step of the way, and I'm excited to see the positive changes that will come from our continued discussions and collaboration. Let's keep moving forward towards a brighter future.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 12.976272674520732,
+                "Flesch Reading Ease": 53.61,
+                "Gunning Fog Index": 12.49
+            },
+            "consistency": {
+                "entailment_score": 0.7481256127357483,
+                "neutral_score": 0.24995531141757965,
+                "contradiction_score": 0.0019191625760868192,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8095837922288958,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.81195467710495
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6938
+            }
+        }
+    },
+    {
+        "patient": "Thank you, therapist. Your unwavering support and guidance are invaluable to me, and I'm grateful for the opportunity to work with you on improving my mental health. I am committed to exploring coping strategies and making positive changes in my life. I look forward to our future sessions and the progress we will make together. Thank you for being a part of my journey towards wellness.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 11.922941066920652,
+                "Flesch Reading Ease": 58.08,
+                "Gunning Fog Index": 10.73
+            },
+            "consistency": {
+                "entailment_score": 0.658356249332428,
+                "neutral_score": 0.33943891525268555,
+                "contradiction_score": 0.0022047965321689844,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.7955666837265518,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9798166155815125
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6696
+            }
+        }
+    }
+][
+    {
+        "therapist": "You're very welcome, and I'm glad to be a part of your journey towards wellness. Your commitment to exploring coping strategies and making positive changes is commendable, and I'm here to support you every step of the way. Together, we will continue working towards improving your mental health and overall well-being. I'm excited to see the progress we will make in our future sessions and the positive impact it will have on your life. Thank you for your trust and dedication to this process.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 11.415894269210341,
+                "Flesch Reading Ease": 54.42,
+                "Gunning Fog Index": 11.01
+            },
+            "consistency": {
+                "entailment_score": 0.7304428219795227,
+                "neutral_score": 0.2624351978302002,
+                "contradiction_score": 0.007121950387954712,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9783826221717007,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9985364675521851
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.757
+            }
+        }
+    },
+    {
+        "patient": "Thank you for your kind words, therapist. Your support and encouragement mean a lot to me, and I'm grateful to have you by my side as I navigate this journey towards better mental health. I am dedicated to making positive changes and finding effective coping strategies for my OCD symptoms. I look forward to our ongoing collaboration and the progress we will achieve together. Let's keep moving forward towards a brighter and healthier future.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.249332073863451,
+                "Flesch Reading Ease": 56.45,
+                "Gunning Fog Index": 11.33
+            },
+            "consistency": {
+                "entailment_score": 0.23470576107501984,
+                "neutral_score": 0.7636702060699463,
+                "contradiction_score": 0.0016239903634414077,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.914813562943948,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9161543846130371
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6964
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm glad to hear that you feel supported and motivated to make positive changes in your mental health journey. Your dedication to therapy and willingness to work on coping strategies are important steps towards improvement. Let's continue our collaboration and work towards a brighter and healthier future together. Thank you for sharing your experiences and trust in this process. Have a great day, and I look forward to our next session.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.72025639077744,
+                "Flesch Reading Ease": 48.6,
+                "Gunning Fog Index": 12.44
+            },
+            "consistency": {
+                "entailment_score": 0.8455358147621155,
+                "neutral_score": 0.15380848944187164,
+                "contradiction_score": 0.0006556636071763933,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.6718577031176665,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7333455085754395
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7085
+            }
+        }
+    },
+    {
+        "patient": " Thank you, therapist. I appreciate your encouragement and guidance in this process. I'm committed to making positive changes and working towards a healthier future. Have a great day, and I look forward to our next session.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 13.560753924820313,
+                "Flesch Reading Ease": 53.88,
+                "Gunning Fog Index": 10.27
+            },
+            "consistency": {
+                "entailment_score": 0.8432093858718872,
+                "neutral_score": 0.15585899353027344,
+                "contradiction_score": 0.0009315735078416765,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.731108608460346,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9969497323036194
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7755
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for your dedication and commitment to making positive changes in your mental health journey. Your willingness to work on coping strategies is commendable, and I look forward to our next session where we can continue our collaboration towards a healthier future. Have a great day, and take care until we meet again.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.58041326164674,
+                "Flesch Reading Ease": 53.21,
+                "Gunning Fog Index": 13.87
+            },
+            "consistency": {
+                "entailment_score": 0.14412252604961395,
+                "neutral_score": 0.8546565771102905,
+                "contradiction_score": 0.001220879377797246,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9953096026443653,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9983548521995544
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7537
+            }
+        }
+    },
+    {
+        "patient": " Thank you, therapist. I appreciate your support and look forward to our next session. Have a great day and take care.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.047414445225762,
+                "Flesch Reading Ease": 81.29,
+                "Gunning Fog Index": 6.61
+            },
+            "consistency": {
+                "entailment_score": 0.6749900579452515,
+                "neutral_score": 0.3236033618450165,
+                "contradiction_score": 0.0014066490111872554,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9871645196279388,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9887912273406982
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6983
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for your participation in today's session. Your openness and willingness to work on your mental health are commendable. I appreciate your trust in this process and look forward to our next session. Have a great day and take care until we meet again.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.459272871634031,
+                "Flesch Reading Ease": 68.47,
+                "Gunning Fog Index": 8.96
+            },
+            "consistency": {
+                "entailment_score": 0.05079707130789757,
+                "neutral_score": 0.9483366012573242,
+                "contradiction_score": 0.0008663138141855597,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9852292790766484,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9963976740837097
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7683
+            }
+        }
+    },
+    {
+        "patient": " Thank you, therapist. I appreciate your guidance and support during today's session. I look forward to our next meeting and continuing our work towards improving my mental health. Have a great day and take care until then.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.281925170053665,
+                "Flesch Reading Ease": 62.04,
+                "Gunning Fog Index": 8.04
+            },
+            "consistency": {
+                "entailment_score": 0.12187705934047699,
+                "neutral_score": 0.8754813075065613,
+                "contradiction_score": 0.002641593338921666,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9906870948103759,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9942687749862671
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7845
+            }
+        }
+    }
+]{
+    "total": 18,
+    "Perplexity": 15.15746019551164,
+    "Flesch Reading Ease": 54.8738888888889,
+    "Gunning Fog Index": 10.639444444444447,
+    "Entailment-Neutral-Consistency": 0.7475307981173197,
+    "Empathy": 0.7030727832010455,
+    "BERTScore": 0.6319111111111111
+}

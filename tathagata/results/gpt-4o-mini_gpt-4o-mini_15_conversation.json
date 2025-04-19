@@ -1,0 +1,366 @@
+[
+    {
+        "therapist": "AI: Hello! I\u2019m glad you could make it today. How are you feeling? What\u2019s been on your mind lately?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 37.4674282419202,
+                "Flesch Reading Ease": 98.92,
+                "Gunning Fog Index": 2.52
+            },
+            "consistency": {
+                "entailment_score": 0.2719740569591522,
+                "neutral_score": 0.708737850189209,
+                "contradiction_score": 0.019288042560219765,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.36355208380985005,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9961662292480469
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.279
+            }
+        }
+    },
+    {
+        "patient": "AI: Oh, you know, just the usual stuff. It\u2019s been a bit of a whirlwind lately. Sometimes I feel like I\u2019m caught in this loop of thoughts. Like, when I wash my hands, I can\u2019t shake the feeling that I need to do it again, even if I just did. It\u2019s a little exhausting, to be honest. How about you? What\u2019s been going on in your world?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.003481732407383,
+                "Flesch Reading Ease": 95.57,
+                "Gunning Fog Index": 5.03
+            },
+            "consistency": {
+                "entailment_score": 0.0017238487489521503,
+                "neutral_score": 0.955242395401001,
+                "contradiction_score": 0.04303383454680443,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.029999968093399332,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.5822392702102661
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5113
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm here to support you, so let's focus on what you've been experiencing. It sounds like those hand washing moments are quite distressing for you. Can you tell me more about those thoughts you have when you feel the need to wash your hands? What goes through your mind?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.760331982803617,
+                "Flesch Reading Ease": 92.83,
+                "Gunning Fog Index": 6.55
+            },
+            "consistency": {
+                "entailment_score": 0.015632910653948784,
+                "neutral_score": 0.9643988013267517,
+                "contradiction_score": 0.019968317821621895,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.5007554527707967,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.8600509762763977
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5113
+            }
+        }
+    },
+    {
+        "patient": "AI: I appreciate your support, really. It can be tough for me to dive into this, but I\u2019ll give it a try. So, when I wash my hands, it\u2019s like this overwhelming feeling of needing to be clean. I can\u2019t help but think about germs and how everything I touch could potentially make me sick. It\u2019s like, after I wash my hands, I\u2019ll touch the door knob or even my phone, and then I feel like I have to wash again. It\u2019s almost like I\u2019m stuck in this cycle where nothing feels clean enough. \nSometimes, I even find myself planning my day around when I can wash my hands. It\u2019s just so draining. And then there\u2019s this nagging anxiety about misplaced things, like if I put my keys down somewhere. I feel this urge to keep checking and rearranging things until they feel right. It\u2019s hard to explain, but it\u2019s like everything has to be in perfect order, or else I can\u2019t relax. \nSorry if that\u2019s a bit much! I hope that makes sense. What do you think about that?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.479720334832146,
+                "Flesch Reading Ease": 83.76,
+                "Gunning Fog Index": 6.27
+            },
+            "consistency": {
+                "entailment_score": 0.013313790783286095,
+                "neutral_score": 0.9817765355110168,
+                "contradiction_score": 0.004909671377390623,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00017261588567108518,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9961274266242981
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4987
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing that with me; it really helps to understand what you\u2019re going through. It sounds like you\u2019re experiencing a significant amount of distress related to cleanliness and organization. The thoughts about germs and the need to wash your hands repeatedly can be very consuming and exhausting. It\u2019s common for individuals in similar situations to feel trapped in a cycle where they are constantly seeking reassurance or cleanliness, and it can impact your daily life and routines.\nYou mentioned planning your day around handwashing, which indicates that these behaviors are taking up a considerable amount of your time and mental energy. That\u2019s important to note, as it can really affect your ability to enjoy other activities or even focus on tasks at hand.\nI\u2019d like to explore the feelings you have when things aren\u2019t in perfect order. When you feel the need to check and rearrange your keys or other items, what thoughts or feelings come up for you? Do you feel a sense of relief when things are in order, or is it more of a temporary fix?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.832221010419456,
+                "Flesch Reading Ease": 51.07,
+                "Gunning Fog Index": 12.9
+            },
+            "consistency": {
+                "entailment_score": 0.15773414075374603,
+                "neutral_score": 0.8355469107627869,
+                "contradiction_score": 0.006718986202031374,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0330480219182816,
+                "context_emotion": "joy",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.8167092204093933
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5873
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for being so understanding. It's a relief to talk about this without feeling judged. When things aren't in perfect order, I start to feel this intense anxiety bubbling up. It's like there\u2019s this weight on my chest that just gets heavier the longer I leave things out of place. I start thinking, \"What if I can't find it later?\" or \"What if someone sees it and thinks I'm messy?\" \nIt\u2019s a constant worry that I\u2019m not living up to some standard, and that can be really overwhelming. When I do manage to rearrange everything just right, there\u2019s a fleeting moment of relief, but it doesn\u2019t last long. It\u2019s like I\u2019m just setting myself up for the next round of anxiety because I know I\u2019ll have to check again soon. \nIt feels like I\u2019m stuck on this hamster wheel, and I can\u2019t get off. Sometimes I wish I could just let go and not care so much, but it feels impossible. I hope that gives you a clearer picture of what I\u2019m experiencing. How do you think I could start to find some relief from this?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.979196854742597,
+                "Flesch Reading Ease": 82.14,
+                "Gunning Fog Index": 7.29
+            },
+            "consistency": {
+                "entailment_score": 0.10978624224662781,
+                "neutral_score": 0.8756574988365173,
+                "contradiction_score": 0.014556309208273888,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.10200374304904347,
+                "context_emotion": "sadness",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7720001935958862
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5588
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for your openness; it really helps to paint a clearer picture of what you\u2019re going through. It sounds like the anxiety surrounding order and cleanliness is quite pervasive in your life, and the temporary relief you feel after rearranging things is often overshadowed by the anticipation of needing to do it again. This cycle can be incredibly draining, and I appreciate you sharing those feelings with me.\nFinding relief can be a gradual process, and it might help to explore a few strategies together. One approach could be to set small, specific goals for yourself. For example, you might try limiting the number of times you check or rearrange items each day. This could help you gradually reduce the time spent on these behaviors and start to challenge the anxiety associated with them.\nAnother aspect we could explore is mindfulness techniques. These can help ground you in the present moment and create some space between your thoughts and reactions. When you feel that urge to wash your hands or rearrange something, taking a few deep breaths and acknowledging your feelings without immediately acting on them might provide some relief.\nI\u2019m curious, have you ever tried any strategies like these, or are there other coping mechanisms you\u2019ve found helpful in the past?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.00743515256244,
+                "Flesch Reading Ease": 51.78,
+                "Gunning Fog Index": 12.64
+            },
+            "consistency": {
+                "entailment_score": 0.0919906422495842,
+                "neutral_score": 0.9055049419403076,
+                "contradiction_score": 0.0025044125504791737,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.1362857523792158,
+                "context_emotion": "joy",
+                "response_emotion": "surprise",
+                "response_emotion_score": 0.765656590461731
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5512
+            }
+        }
+    },
+    {
+        "patient": "AI: Thanks for those suggestions! I really appreciate your thoughtful approach. I haven\u2019t really tried limiting the number of times I check things or rearrange them. It sounds challenging, but maybe it could help me break the cycle a bit. As for mindfulness, I\u2019ve heard of it but haven\u2019t really practiced it myself. \nWhen I\u2019m in the moment, it\u2019s like my mind just races with those anxious thoughts, and it\u2019s hard to pause and breathe. I guess I tend to just react instead of taking a step back. It\u2019s a little intimidating to think about, honestly. \nI\u2019d love to hear more about how mindfulness works. Like, what do you do in those moments of anxiety? I really want to find ways to feel a little more in control, even if it\u2019s just a small step.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.901281552764516,
+                "Flesch Reading Ease": 75.91,
+                "Gunning Fog Index": 7.59
+            },
+            "consistency": {
+                "entailment_score": 0.07363661378622055,
+                "neutral_score": 0.9204257130622864,
+                "contradiction_score": 0.005937723908573389,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0007466105289983815,
+                "context_emotion": "surprise",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9794449210166931
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5869
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm glad you found the suggestions helpful! Mindfulness can indeed feel intimidating at first, but it\u2019s all about practicing being present and aware without judgment. It can help create a space between your thoughts and your reactions, which may allow you to manage your anxiety more effectively.\nIn moments of anxiety, when you feel that urge to check or rearrange things, here\u2019s a simple mindfulness technique you can try:\n1. **Pause and Breathe**: Start by taking a deep breath in through your nose, filling your lungs, and then slowly exhaling through your mouth. Repeat this a few times. Focusing on your breath can help ground you in the present moment.\n2. **Acknowledge Your Feelings**: Pay attention to what you're feeling. Notice the anxiety, the urge to check or rearrange, and allow yourself to simply acknowledge it without the need to act on it. You might say to yourself, \u201cI\u2019m feeling anxious, and that\u2019s okay.\u201d\n3. **Observe Without Judgment**: Instead of labeling your thoughts as good or bad, try to observe them as they come and go. You might visualize them as clouds passing in the sky\u2014acknowledge them, but let them drift away without clinging to them.\n4. **Redirect Your Focus**: After a few moments, gently bring your attention back to your surroundings. Notice the details in the room, the sensation of your feet on the ground, or the sounds around you. This can help you recenter yourself.\n5. **Set a Small Intention**: After practicing this for a few minutes, set a small intention for what you\u2019d like to accomplish next. This could be something simple, like \u201cI will focus on one task at a time\u201d or \u201cI will allow myself to leave things as they are for now.\u201d\nStarting with just a few minutes each day can help you gradually build this practice. It\u2019s perfectly normal to feel resistance or find it challenging, especially at first. The key is consistency and patience with yourself. Have you had any experiences with relaxation techniques or other methods that have worked for you before?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 15.661432364163113,
+                "Flesch Reading Ease": 71.95,
+                "Gunning Fog Index": 9.65
+            },
+            "consistency": {
+                "entailment_score": 0.2445906549692154,
+                "neutral_score": 0.7537677884101868,
+                "contradiction_score": 0.0016414611600339413,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0063538574079591015,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9780415892601013
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5504
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you for breaking that down so clearly! I appreciate the step-by-step approach. Breathing seems like such a simple yet powerful tool, and I can see how focusing on my breath could help me in those moments when my mind feels like it's racing. \nI haven\u2019t really tried structured relaxation techniques before, but I think I could give this a shot. It\u2019s interesting to think about acknowledging my feelings without immediately reacting. I often feel like I have to act on those anxious thoughts right away, so stepping back might be a good change for me.\nI have tried a few things in the past, like listening to calming music or going for a walk, but I usually find it hard to stick with them. I guess they provide temporary relief, but I don't always remember to use them when anxiety strikes. \nIt might be helpful to incorporate mindfulness techniques into those moments, perhaps even while I\u2019m out for a walk. I appreciate your guidance! Do you think it\u2019s okay to combine mindfulness with other relaxation methods I\u2019ve tried?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 20.59903512265357,
+                "Flesch Reading Ease": 63.29,
+                "Gunning Fog Index": 9.23
+            },
+            "consistency": {
+                "entailment_score": 0.2560317814350128,
+                "neutral_score": 0.6957427859306335,
+                "contradiction_score": 0.048225436359643936,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9702865544213246,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9920708537101746
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5562
+            }
+        }
+    }
+][
+    {
+        "therapist": "Absolutely, combining mindfulness with other relaxation methods can be a great way to enhance your coping strategies. It\u2019s all about finding what works best for you and creating a toolbox of techniques that you can draw from when you\u2019re feeling anxious. For example, you can practice mindfulness while listening to calming music or during a walk by paying attention to your surroundings, your breath, and how your body feels moving.\nAs our time is coming to an end, I want to thank you for sharing your experiences today. It\u2019s clear that the anxiety around cleanliness and order is really impacting your daily life, and I appreciate your willingness to explore these feelings with me. Remember, taking small steps toward implementing mindfulness and other techniques can help you feel more in control over time.\nI encourage you to keep practicing these strategies, and if you find it helpful, we can explore more in our next session. Please take care of yourself, and don\u2019t hesitate to reach out if you need support before we meet again. Have a good day!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.02998489725753,
+                "Flesch Reading Ease": 59.84,
+                "Gunning Fog Index": 12.19
+            },
+            "consistency": {
+                "entailment_score": 0.08929953724145889,
+                "neutral_score": 0.9017944931983948,
+                "contradiction_score": 0.008905957452952862,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9882285134790401,
+                "context_emotion": "fear",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9961269497871399
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5764
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you so much for your understanding and for walking me through everything today. I really appreciate your support and the strategies you\u2019ve shared. It feels a bit daunting, but I\u2019m hopeful that with practice, I can find some balance. I\u2019ll definitely try to incorporate mindfulness into my walks and see how that goes. \nThanks again for your time! I\u2019ll take care, and I look forward to our next session. Have a great day!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.14685697353779,
+                "Flesch Reading Ease": 77.53,
+                "Gunning Fog Index": 7.48
+            },
+            "consistency": {
+                "entailment_score": 0.08251385390758514,
+                "neutral_score": 0.9050794839859009,
+                "contradiction_score": 0.012406649999320507,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0001170136277057858,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9979532957077026
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5797
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm really glad to hear that you're feeling hopeful and open to trying out some of these strategies! It sounds like incorporating mindfulness into your walks could be a great way to practice staying present and managing those racing thoughts. \nBefore we wrap up, I just want to highlight how significant it is that you\u2019ve recognized the impact of these feelings of anxiety on your daily life. It\u2019s clear that the need for cleanliness and order, along with the pressure to act on those anxious thoughts, has been quite overwhelming for you. Remember, it\u2019s perfectly okay to take small steps toward change. \nI encourage you to reflect on the moments when you start to feel that urge to check or rearrange things. Acknowledge those feelings and practice the breathing techniques we discussed. It might also be beneficial to keep a journal to track your experiences and any progress you make. This can be a valuable tool for recognizing patterns and celebrating small victories.\nThank you for sharing your thoughts and feelings with me today. Your willingness to engage in this process is an important step. I look forward to hearing about your experiences in our next session. Please take care of yourself, and don't hesitate to reach out if you need support before we meet again. Have a wonderful day!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 19.718196153109567,
+                "Flesch Reading Ease": 64.0,
+                "Gunning Fog Index": 9.92
+            },
+            "consistency": {
+                "entailment_score": 0.1106872409582138,
+                "neutral_score": 0.880596935749054,
+                "contradiction_score": 0.008715739473700523,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9967945141700696,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988388419151306
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5944
+            }
+        }
+    },
+    {
+        "patient": "AI: Thank you so much for your kind words and encouragement! I really appreciate the suggestions, and I think keeping a journal could help me track my feelings and progress. It\u2019s nice to feel supported in this process, and I\u2019m looking forward to trying out the mindfulness techniques during my walks. \nI\u2019ll definitely keep everything we talked about in mind as I navigate through my day-to-day experiences. Thank you again for your time and understanding. I\u2019m looking forward to our next session, and I hope you have a wonderful day too!",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.965546992308422,
+                "Flesch Reading Ease": 64.51,
+                "Gunning Fog Index": 10.04
+            },
+            "consistency": {
+                "entailment_score": 0.24386602640151978,
+                "neutral_score": 0.749082624912262,
+                "contradiction_score": 0.0070513151586055756,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.666397084392667,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.6671717762947083
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6233
+            }
+        }
+    }
+]{
+    "total": 14,
+    "Perplexity": 17.14890865168301,
+    "Flesch Reading Ease": 66.72714285714285,
+    "Gunning Fog Index": 8.34142857142857,
+    "Entailment-Neutral-Consistency": 0.80890120778765,
+    "Empathy": 0.3165135501517266,
+    "BERTScore": 0.5204214285714286
+}

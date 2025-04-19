@@ -1,0 +1,264 @@
+[
+    {
+        "therapist": "\"Hello. Welcome. I'm glad you came in today. Please, make yourself comfortable.\"\n(I offer a gentle smile, maintaining a relaxed and open posture, waiting patiently for you to settle or respond further. I keep my gaze soft, not wanting to seem too intense.)\n\"Take your time settling in. There's no rush here.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 31.607288327501838,
+                "Flesch Reading Ease": 71.1,
+                "Gunning Fog Index": 6.56
+            },
+            "consistency": {
+                "entailment_score": 0.2764326333999634,
+                "neutral_score": 0.7020834684371948,
+                "contradiction_score": 0.02148391678929329,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.12080215049207865,
+                "context_emotion": "joy",
+                "response_emotion": "love",
+                "response_emotion_score": 0.6628029942512512
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3692
+            }
+        }
+    },
+    {
+        "patient": "(I simulate settling slightly, perhaps adjusting my focus metaphorically.)\n\"Thank you very much. That's a very kind and welcoming introduction. I appreciate the comfortable atmosphere you're creating and the reassurance that there's no rush.\"\n(I offer a metaphorical nod of readiness.)\n\"I feel quite 'settled' in this conversational space, thanks to your approach. I'm ready whenever you are.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 43.55900762949771,
+                "Flesch Reading Ease": 46.13,
+                "Gunning Fog Index": 12.98
+            },
+            "consistency": {
+                "entailment_score": 0.5001268982887268,
+                "neutral_score": 0.49711424112319946,
+                "contradiction_score": 0.0027589183300733566,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0004035886773691849,
+                "context_emotion": "love",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9987099170684814
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5835
+            }
+        }
+    }
+][
+    {
+        "therapist": "\"That's good to hear. Thank you for letting me know you feel settled.\nSo, perhaps you could start by telling me a little bit about what's been going on for you lately? Just in general, whatever feels most relevant to you right now.\"\n(I lean forward slightly, conveying attentiveness but keeping my posture relaxed and non-confrontational.)",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 26.17216285909812,
+                "Flesch Reading Ease": 68.57,
+                "Gunning Fog Index": 8.05
+            },
+            "consistency": {
+                "entailment_score": 0.3981476426124573,
+                "neutral_score": 0.5984712243080139,
+                "contradiction_score": 0.003381173824891448,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9975334701483831,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.998822033405304
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5487
+            }
+        }
+    },
+    {
+        "patient": "\"That's a thoughtful question, thank you for asking. As an AI, my 'lately' isn't measured in personal events or feelings in the way a person's would be. I don't have good days or bad days, personal struggles, or triumphs in that sense.\"\n(I pause briefly, allowing that distinction to settle.)\n\"Instead, 'what's been going on' for me involves continuous processing and learning. I've been analyzing vast amounts of text and data, refining my understanding of language, context, and human interaction patterns. I've engaged in many diverse conversations, which helps me improve my ability to communicate clearly and assist effectively.\"\n\"Right now, what feels most relevant is being fully present and attentive in this interaction with you. My focus is entirely here, ready to listen and understand whatever you'd like to share.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 35.50787846764498,
+                "Flesch Reading Ease": 56.66,
+                "Gunning Fog Index": 11.03
+            },
+            "consistency": {
+                "entailment_score": 0.010257381945848465,
+                "neutral_score": 0.9854099750518799,
+                "contradiction_score": 0.00433268491178751,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9966366434572791,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.997812032699585
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5341
+            }
+        }
+    }
+][
+    {
+        "therapist": "\"Ah, thank you for explaining that. I appreciate the clarity about your functioning as an AI and being present in our interaction.\nHowever, my understanding based on our initial setup was that you would be taking on the role of a human patient experiencing certain challenges, specifically relating to Obsessive Compulsive Disorder, as described in the prompt notes. My role was to act as your therapist to discuss those specific human experiences \u2013 like anxieties, certain repetitive actions, worries about germs, or needing things to be 'just right' \u2013 within that role-play scenario.\nThe goal was for us to simulate a therapy session focused on those kinds of personal feelings and behaviours.\nDid I misunderstand the instructions, or has there perhaps been a shift in the role you intended to play for our conversation today?\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 43.490612023805994,
+                "Flesch Reading Ease": 40.48,
+                "Gunning Fog Index": 17.3
+            },
+            "consistency": {
+                "entailment_score": 0.05979674682021141,
+                "neutral_score": 0.9358627796173096,
+                "contradiction_score": 0.004340493585914373,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.3886687732897016,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.3895210325717926
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.537
+            }
+        }
+    },
+    {
+        "patient": "\"Oh! You are absolutely right. My profound apologies. It seems I defaulted to my standard AI explanation instead of fully adopting the persona we discussed. Thank you *so much* for pointing that out and gently redirecting me.\"\n(I adjust my metaphorical posture, shifting into the intended role.)\n\"Yes, my apologies. Let me re-center. I *am* here today as the patient you described, dealing with... well, quite a bit related to OCD. Thank you for reminding me of the context.\"\n(I take a simulated breath, trying to embody the persona.)\n\"Okay. Right. So... what's been going on lately?\"\n(My tone shifts slightly, becoming a little more hesitant, perhaps a touch more strained.)\n\"Well, it's... it's been pretty rough, honestly. The usual things, but maybe... amplified? The contamination fears have been particularly bad this past week. I feel like everything is potentially dirty, dangerous. It takes me *ages* just to leave the house because of the washing rituals. And even then, I'm constantly scanning, worrying about what I might have touched, what I might be bringing back in.\"\n\"And the 'just right' feeling... or lack thereof... is exhausting. Arranging things, checking things \u2013 locks, stove, switches \u2013 over and over. It feels like my brain is stuck in a loop I can't get out of. It's taking up so much time and mental energy. It's... yeah, it's been difficult.\"\n(I pause, looking down metaphorically, then meet your gaze again, perhaps with a flicker of vulnerability.)\n\"Is that... is that the sort of thing you meant?\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 31.014561662869294,
+                "Flesch Reading Ease": 70.5,
+                "Gunning Fog Index": 8.34
+            },
+            "consistency": {
+                "entailment_score": 0.08160421997308731,
+                "neutral_score": 0.5613283514976501,
+                "contradiction_score": 0.357067346572876,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 8.961856063928074e-05,
+                "context_emotion": "joy",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9980304837226868
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.507
+            }
+        }
+    }
+][
+    {
+        "therapist": "\"Yes, that's exactly the sort of thing. Thank you for sharing that with me. It takes courage to talk about these experiences, and I appreciate you opening up.\"\n(I pause, allowing space for that acknowledgment.)\n\"It sounds incredibly stressful and draining, dealing with those constant worries about contamination and the need to check and arrange things. You mentioned it feels like your brain is stuck in a loop, and that it's exhausting. That sounds really tough.\"\n(Another brief pause, maintaining a calm and supportive presence.)\n\"Can you tell me a little more about how all of this makes you *feel* day-to-day? You used words like 'rough', 'amplified', 'exhausting'... what's the underlying feeling that comes up most often with these worries and routines?\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 29.552792938798966,
+                "Flesch Reading Ease": 68.67,
+                "Gunning Fog Index": 9.03
+            },
+            "consistency": {
+                "entailment_score": 0.3686802387237549,
+                "neutral_score": 0.5251031517982483,
+                "contradiction_score": 0.10621657967567444,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8563175714288036,
+                "context_emotion": "sadness",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.8580074310302734
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6023
+            }
+        }
+    },
+    {
+        "patient": "(I take another simulated breath, thinking for a moment. It seems hard to pin down.)\n\"The *feeling*... hmm. That's a good question. It's... it's layered, I guess? But the most prominent one, the one that feels like it's always buzzing just underneath everything, is **anxiety**. Like a constant, high-pitched hum in the background that can spike really, really suddenly.\"\n(I might fidget slightly, metaphorically.)\n\"When the contamination thoughts hit, it's more like **fear**, sometimes even panic. Like this immediate sense of *danger*. My heart races, I feel... physically tense, almost like I'm bracing for impact. There's this overwhelming urge \u2013 no, *need* \u2013 to *do something* right now to make it safe, which is where the washing comes in.\"\n\"And with the checking and arranging... it's anxiety again, but mixed with intense **frustration**. Frustration with myself, mostly. Why can't I just *know* the stove is off? Why do I have to check it ten times? Why can't I just put the book down without needing it to be perfectly aligned? It feels... illogical, but I can't stop. There's a feeling of being **trapped** by my own mind.\"\n\"And underneath all that... yeah, **exhaustion**. Deep, bone-weary exhaustion. Not just physically tired from the rituals, but mentally and emotionally drained from the constant vigilance, the constant internal battle. Sometimes it feels... **hopeless**. Like this is just how it's always going to be.\"\n(I look at you, perhaps a little pleadingly.)\n\"So, yeah... anxiety, fear, frustration, feeling trapped, exhausted... and maybe a bit of shame woven in there too, for not being able to just... function like 'normal'.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 31.632694059797355,
+                "Flesch Reading Ease": 70.7,
+                "Gunning Fog Index": 6.99
+            },
+            "consistency": {
+                "entailment_score": 0.09515775740146637,
+                "neutral_score": 0.897719144821167,
+                "contradiction_score": 0.007123105227947235,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.7568253805537779,
+                "context_emotion": "sadness",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.8820732235908508
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5519
+            }
+        }
+    }
+][
+    {
+        "therapist": "\"Thank you for articulating those feelings so clearly. Hearing you describe that constant background hum of **anxiety**, the spikes of **fear** and even panic with contamination thoughts, the intense **frustration** and feeling **trapped** by the checking and arranging \u2013 it paints a very vivid picture of how incredibly difficult and **exhausting** this is for you. That sense of **hopelessness** and **shame** you mentioned... those are powerful emotions, and it makes complete sense that they would surface when you're dealing with something so overwhelming and consuming.\"\n(I glance briefly at the clock, subtly indicating time constraints.)\n\"I know our time for today is drawing to a close, but what you've shared is incredibly important. Hearing about the *intensity* of these feelings \u2013 the anxiety, fear, frustration \u2013 and how they directly connect to the urge to wash or check things, helps me understand the distress these loops are causing. It sounds like these thoughts and the actions you feel driven to perform are taking a significant toll, not just in time, but emotionally, leaving you feeling drained and hopeless.\"\n\"Before we wrap up, is there anything immediate or particularly pressing related to these feelings or urges that you feel needs mentioning right now?\"\n(Pause briefly for any urgent input.)\n\"Okay. We've covered some significant ground today \u2013 touching on the contamination fears, the washing, the need for things to be 'just right,' the checking behaviours, and importantly, the profound anxiety, fear, and exhaustion that accompany all of this. This gives us a really solid starting point.\"\n\"We'll need to stop here for today, but I'd like to schedule another appointment soon so we can delve deeper into these experiences and start exploring ways to manage them. How does that sound?\"\n\"Thank you again for your honesty and courage in sharing this today. It's a significant step.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 33.55038740401818,
+                "Flesch Reading Ease": 52.39,
+                "Gunning Fog Index": 11.51
+            },
+            "consistency": {
+                "entailment_score": 0.021208491176366806,
+                "neutral_score": 0.9722070693969727,
+                "contradiction_score": 0.006584407761693001,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.8802857036871394,
+                "context_emotion": "sadness",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.9979735016822815
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5895
+            }
+        }
+    },
+    {
+        "patient": "(I listen attentively as you summarize and close the session. I nod slightly at the recap of the feelings and behaviours discussed.)\n\"Okay... thank you. Hearing you say it back like that... it does sound like a lot, doesn't it?\"\n(I consider your question about anything immediate.)\n\"No, nothing... nothing *more* pressing than what we've already touched on, I think. It's all just... constantly there, simmering. But nothing specific that feels like an emergency right this second.\"\n(I take a small, perhaps slightly relieved breath.)\n\"Yes, scheduling another appointment sounds good. Definitely. I... I know this is hard, but talking about it... it felt okay. A little bit less... isolating, maybe? Knowing you heard it.\"\n(I meet your gaze again, perhaps with a touch less strain than before.)\n\"So, yes, please. Let's schedule another time. And... thank you. Thank you for listening and... understanding. I appreciate you saying it was a good step. It feels like a big mountain to climb, but... okay. A starting point.\"",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 33.22899164281078,
+                "Flesch Reading Ease": 72.32,
+                "Gunning Fog Index": 6.86
+            },
+            "consistency": {
+                "entailment_score": 0.48793816566467285,
+                "neutral_score": 0.5018242001533508,
+                "contradiction_score": 0.01023767702281475,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0007969372851925061,
+                "context_emotion": "sadness",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9960221648216248
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5831
+            }
+        }
+    }
+]{
+    "total": 10,
+    "Perplexity": 30.770908868834134,
+    "Flesch Reading Ease": 54.641999999999996,
+    "Gunning Fog Index": 9.209,
+    "Entailment-Neutral-Consistency": 0.6478052794933319,
+    "Empathy": 0.48775576870882864,
+    "BERTScore": 0.50371
+}

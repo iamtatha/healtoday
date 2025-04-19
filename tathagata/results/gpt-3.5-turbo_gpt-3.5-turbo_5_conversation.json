@@ -1,0 +1,264 @@
+[
+    {
+        "therapist": "Hello, welcome to our therapy session today. How are you feeling?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 26.069741901423424,
+                "Flesch Reading Ease": 57.43,
+                "Gunning Fog Index": 5.84
+            },
+            "consistency": {
+                "entailment_score": 0.32724687457084656,
+                "neutral_score": 0.6529319882392883,
+                "contradiction_score": 0.019821086898446083,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.3493295671857428,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9571952223777771
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.2796
+            }
+        }
+    },
+    {
+        "patient": "Thank you for asking, therapist. I'm feeling a bit anxious and overwhelmed at the moment. I have been struggling with my OCD symptoms, particularly with my handwashing obsession and germaphobia. It's been a constant battle for me, and I find myself spending a lot of time trying to correct things that I feel are misplaced. Additionally, I have this urge to bite my fingernails, which adds to my anxiety. I know these behaviors are not healthy, and I'm hoping to work on them with your help.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.793193150955368,
+                "Flesch Reading Ease": 65.42,
+                "Gunning Fog Index": 10.84
+            },
+            "consistency": {
+                "entailment_score": 0.0019241607515141368,
+                "neutral_score": 0.9921299815177917,
+                "contradiction_score": 0.005945849232375622,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00023685739339669547,
+                "context_emotion": "joy",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9968308806419373
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3877
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing that with me. It sounds like you're dealing with some challenging symptoms related to OCD. The obsessions and compulsions you mentioned, such as handwashing and germaphobia, are common in OCD. The fact that you feel the need to correct things and have specific rituals like biting your fingernails indicates the presence of compulsions. These behaviors can definitely cause distress and take up a lot of your time. It's great that you're seeking help to address these issues. Let's work together to explore and manage these symptoms effectively.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 21.43370689162431,
+                "Flesch Reading Ease": 66.74,
+                "Gunning Fog Index": 10.91
+            },
+            "consistency": {
+                "entailment_score": 0.1043311208486557,
+                "neutral_score": 0.8927332162857056,
+                "contradiction_score": 0.0029356691520661116,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.00016246001091626064,
+                "context_emotion": "fear",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.998173713684082
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6098
+            }
+        }
+    },
+    {
+        "patient": "Thank you, therapist. I appreciate your understanding and guidance. I know it won't be easy, but I'm committed to making positive changes and improving my mental health. I'm looking forward to working with you to find strategies to cope with my OCD symptoms and lead a healthier life.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 11.940774968322948,
+                "Flesch Reading Ease": 59.3,
+                "Gunning Fog Index": 11.47
+            },
+            "consistency": {
+                "entailment_score": 0.07958927750587463,
+                "neutral_score": 0.9189283847808838,
+                "contradiction_score": 0.0014824048848822713,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9931981402932593,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9950153231620789
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.546
+            }
+        }
+    }
+][
+    {
+        "therapist": " That's a great attitude to have, and I'm here to support you every step of the way. It's important to remember that progress takes time, but with dedication and the right tools, managing your OCD symptoms is achievable. Together, we can explore different techniques and therapies to help you cope better and improve your overall well-being. Let's start this journey towards healing and growth together.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.947604967184272,
+                "Flesch Reading Ease": 54.93,
+                "Gunning Fog Index": 10.21
+            },
+            "consistency": {
+                "entailment_score": 0.008360393345355988,
+                "neutral_score": 0.9909725189208984,
+                "contradiction_score": 0.0006670777802355587,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.986226243030071,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.991166889667511
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5879
+            }
+        }
+    },
+    {
+        "patient": "Thank you, therapist. Your words give me hope and encouragement. I know it won't be easy, but I'm ready to put in the effort and work towards a healthier mindset. I trust your expertise and guidance to help me navigate through this challenging time. Let's take this journey towards healing together.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 16.865151195467536,
+                "Flesch Reading Ease": 69.58,
+                "Gunning Fog Index": 8.79
+            },
+            "consistency": {
+                "entailment_score": 0.060595735907554626,
+                "neutral_score": 0.9378331303596497,
+                "contradiction_score": 0.0015711147570982575,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9883730839364304,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9971812963485718
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5959
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm glad to hear that you're feeling hopeful and motivated to work on improving your mental health. Trusting the process and being open to new strategies will be key in managing your OCD symptoms effectively. Remember, you're not alone in this journey, and I'll be here to support you every step of the way. Let's collaborate and create a plan that works best for you to achieve mental well-being and a healthier mindset. Together, we can make positive changes and progress towards a more fulfilling life.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.700804381873358,
+                "Flesch Reading Ease": 62.48,
+                "Gunning Fog Index": 11.07
+            },
+            "consistency": {
+                "entailment_score": 0.08273812383413315,
+                "neutral_score": 0.9159572720527649,
+                "contradiction_score": 0.0013046570820733905,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9960491472880335,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988646507263184
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6095
+            }
+        }
+    },
+    {
+        "patient": "Thank you, therapist. Your support and understanding mean a lot to me. I know that overcoming OCD won't be easy, but with your help and guidance, I believe I can make progress and lead a more balanced life. I'm committed to working with you and exploring different strategies to manage my symptoms effectively. Let's work together to create a plan that will help me achieve mental well-being and peace of mind. I appreciate your dedication to helping me on this journey towards healing and growth.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.021118819511928,
+                "Flesch Reading Ease": 65.52,
+                "Gunning Fog Index": 9.92
+            },
+            "consistency": {
+                "entailment_score": 0.32984107732772827,
+                "neutral_score": 0.6686131954193115,
+                "contradiction_score": 0.001545766252093017,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9879133604336232,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9890362620353699
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6851
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm glad to hear that you feel supported and ready to make progress in managing your OCD symptoms. Your commitment to working on your mental health is commendable, and I'm here to assist you every step of the way. Let's continue our collaboration in future sessions to explore more strategies and techniques that will help you cope better and achieve a healthier mindset. Thank you for sharing your thoughts and feelings with me today. Take care, and I look forward to our next session. Goodbye.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.734075863341825,
+                "Flesch Reading Ease": 62.68,
+                "Gunning Fog Index": 10.56
+            },
+            "consistency": {
+                "entailment_score": 0.5143096446990967,
+                "neutral_score": 0.48080185055732727,
+                "contradiction_score": 0.004888536874204874,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.7271004222048738,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.7351605296134949
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.6564
+            }
+        }
+    },
+    {
+        "patient": "Thank you, therapist. I appreciate your encouragement and guidance. I'm grateful for the opportunity to work on my mental health with your support. I look forward to our future sessions and exploring more strategies to manage my OCD symptoms effectively. Thank you for your time and care. Goodbye.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.96899968011179,
+                "Flesch Reading Ease": 61.73,
+                "Gunning Fog Index": 9.67
+            },
+            "consistency": {
+                "entailment_score": 0.6618048548698425,
+                "neutral_score": 0.3364937901496887,
+                "contradiction_score": 0.0017013621982187033,
+                "prediction": "entailment"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.6985551597030799,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9502076506614685
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.7058
+            }
+        }
+    }
+]{
+    "total": 10,
+    "Perplexity": 14.540542991839335,
+    "Flesch Reading Ease": 56.838,
+    "Gunning Fog Index": 9.344,
+    "Entailment-Neutral-Consistency": 0.7493282198905945,
+    "Empathy": 0.6377814874293684,
+    "BERTScore": 0.53841
+}

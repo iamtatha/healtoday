@@ -1,0 +1,162 @@
+[
+    {
+        "therapist": "Hello! Welcome to our session today. I'm here to listen and support you, so feel free to share whatever's on your mind. How have you been feeling lately?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 18.332119582628085,
+                "Flesch Reading Ease": 78.96,
+                "Gunning Fog Index": 5.15
+            },
+            "consistency": {
+                "entailment_score": 0.2563256025314331,
+                "neutral_score": 0.7237441539764404,
+                "contradiction_score": 0.01993023045361042,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.3645366585009988,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9988640546798706
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.3386
+            }
+        }
+    },
+    {
+        "patient": "Oh, thank you for asking. I've been feeling a bit overwhelmed lately, to be honest. There are just these little things that keep piling up, and sometimes it feels like I'm stuck in a loop. It's hard to explain. I know I have certain habits that I can't seem to shake off, and they take up a lot of my time and energy. But it's nice to have a space like this where I can talk about it. How about you? How's your day going?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 9.258586273977846,
+                "Flesch Reading Ease": 94.56,
+                "Gunning Fog Index": 5.18
+            },
+            "consistency": {
+                "entailment_score": 0.0009664815152063966,
+                "neutral_score": 0.9963962435722351,
+                "contradiction_score": 0.0026373080909252167,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0018950831523768391,
+                "context_emotion": "joy",
+                "response_emotion": "surprise",
+                "response_emotion_score": 0.5654560327529907
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4914
+            }
+        }
+    }
+][
+    {
+        "therapist": "I'm doing well, thank you for asking! I'm here to focus on you today, so let's dive a bit deeper into what you're experiencing. It's great that you're open to sharing. When you mention habits that take up a lot of your time and energy, could you tell me more about what these habits look like? How do they affect your day-to-day life?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 12.28225557177318,
+                "Flesch Reading Ease": 84.07,
+                "Gunning Fog Index": 6.31
+            },
+            "consistency": {
+                "entailment_score": 0.013305396772921085,
+                "neutral_score": 0.10565562546253204,
+                "contradiction_score": 0.8810389637947083,
+                "prediction": "contradiction"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.000181345269931181,
+                "context_emotion": "surprise",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9983312487602234
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.576
+            }
+        }
+    },
+    {
+        "patient": "Well, it's a bit hard to put into words, but I'll do my best. One of the things I struggle with is this overwhelming need to wash my hands repeatedly. It might sound simple, but it can really take over my day. For example, after using the restroom, I wash my hands, but then I touch the door knob, and I feel the urge to wash them again. This can happen multiple times in a row, and it ends up making me late for things or just draining my energy.\nAnother thing is that I'm quite anxious about germs. I know logically that not everything is covered in germs, but the thought can be so persistent that it distracts me from other activities. I also get anxious if things are out of place, and I spend a lot of time trying to organize and reorganize until it feels just right. It can be really exhausting.\nAnd then there's the nail-biting. It's almost like a reflex when I'm stressed or anxious, but I don't like doing it, and it bothers me that I can't seem to stop.\nI hope that gives you a better idea of what my days can be like. It's frustrating because I know these habits aren't helping me, but they just feel so necessary in the moment.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 14.02664571434053,
+                "Flesch Reading Ease": 79.7,
+                "Gunning Fog Index": 9.12
+            },
+            "consistency": {
+                "entailment_score": 0.007326394785195589,
+                "neutral_score": 0.9912352561950684,
+                "contradiction_score": 0.0014382711378857493,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.9832222886459405,
+                "context_emotion": "joy",
+                "response_emotion": "joy",
+                "response_emotion_score": 0.9848657846450806
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.4864
+            }
+        }
+    }
+][
+    {
+        "therapist": "Thank you for sharing that with me. It sounds like these habits are quite distressing and consume a significant amount of your time and energy. The repetitive hand washing and concern about germs, as well as the need for order, seem to be quite impactful on your daily life. It must be really challenging to feel the compulsion to engage in these behaviors even when you recognize they might not be necessary.\nThe nail-biting, especially when you're feeling stressed or anxious, also sounds like it might be a way of coping with that anxiety, even though it's something you wish you could control better.\nCan you share a bit about how these habits and feelings have affected your social or work life? Have they caused any difficulties or changes in those areas for you?",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 22.736920543439645,
+                "Flesch Reading Ease": 60.55,
+                "Gunning Fog Index": 12.12
+            },
+            "consistency": {
+                "entailment_score": 0.07224133610725403,
+                "neutral_score": 0.9235129356384277,
+                "contradiction_score": 0.004245723132044077,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.005297994093901137,
+                "context_emotion": "joy",
+                "response_emotion": "sadness",
+                "response_emotion_score": 0.6722765564918518
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5498
+            }
+        }
+    },
+    {
+        "patient": "Thank you for asking about that. It's something I've been thinking about a lot. Socially, these habits can make things awkward or uncomfortable. For instance, if I'm out with friends or colleagues and I feel the need to wash my hands repeatedly, I might have to excuse myself multiple times. It can make social interactions feel a bit strained, and sometimes I worry that people might notice or think I'm acting strange.\nIn terms of work, it can be quite challenging as well. The time I spend on these compulsions, like hand washing or organizing things until they feel just right, can eat into my productivity. I sometimes find myself staying late or feeling anxious about meeting deadlines because I've lost time to these habits. It can also be distracting during meetings or collaborative projects, where my focus might drift because I'm preoccupied with these thoughts or urges.\nOverall, it feels like there's this constant push and pull between wanting to be present and engaged with others and being caught up in these compulsions. It can be really isolating at times, and I wish it didn't have such an impact on my interactions and responsibilities.",
+        "metric": {
+            "Coherence": {
+                "Perplexity": 17.23163881320501,
+                "Flesch Reading Ease": 61.97,
+                "Gunning Fog Index": 10.16
+            },
+            "consistency": {
+                "entailment_score": 0.010024758987128735,
+                "neutral_score": 0.9893261194229126,
+                "contradiction_score": 0.000649088469799608,
+                "prediction": "neutral"
+            },
+            "Empathy": {
+                "emotion_alignment": 0.0008316242503966023,
+                "context_emotion": "sadness",
+                "response_emotion": "fear",
+                "response_emotion_score": 0.9964064955711365
+            },
+            "Thought Similarity": {
+                "BERT similarity": 0.5844
+            }
+        }
+    }
+]{
+    "total": 6,
+    "Perplexity": 12.589341152789368,
+    "Flesch Reading Ease": 63.475,
+    "Gunning Fog Index": 7.148333333333333,
+    "Entailment-Neutral-Consistency": 0.796918253103892,
+    "Empathy": 0.16523805590209104,
+    "BERTScore": 0.44799999999999995
+}
